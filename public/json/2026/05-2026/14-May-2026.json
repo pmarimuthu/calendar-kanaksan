@@ -1,0 +1,94 @@
+{
+  "date" : "14-05-2026",
+  "day" : {
+    "en" : "Thursday",
+    "ta" : "வியாழன்"
+  },
+  "tamil_month" : {
+    "en" : "Chithirai",
+    "ta" : "சித்திரை"
+  },
+  "tamil_date" : "31",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Vaisagam 24",
+    "ta" : "வைசாகம் 24"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Thuvadasi 05.47 (ka. 08.13) varai, pinbu Thrayodasi",
+      "ta" : "துவாதசி 05.47 (கா. 08.13) வரை, பின்பு திரயோதசி"
+    },
+    "nakshatra" : {
+      "en" : "Revathi 35.31 (ma. 08.06) varai, pinbu Asvathi",
+      "ta" : "ரேவதி 35.31 (மா. 08.06) வரை, பின்பு அஸ்வதி"
+    },
+    "lagnam" : {
+      "en" : "Mesa Lagnam · Iruppu Na. 0 Vi. 08",
+      "ta" : "மேஷ லக்னம் · இருப்பு நா. 0 வி. 08"
+    },
+    "karanam" : {
+      "en" : "3-4.30",
+      "ta" : "3-4.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "5.54",
+      "ta" : "5.54"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "10.30-11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "6.30-7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "------------",
+      "ta" : "------------"
+    },
+    "evening" : {
+      "en" : "------------",
+      "ta" : "------------"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "gulikai" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    },
+    "emagandam" : {
+      "morning" : "06.00",
+      "evening" : "07.30"
+    }
+  },
+  "soolam" : {
+    "en" : "South",
+    "ta" : "தெற்கு"
+  },
+  "pariharam" : {
+    "en" : "Thailam",
+    "ta" : "தைலம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Uthiram, Hastham",
+    "ta" : "உத்திரம், ஹஸ்தம்"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "date" : "27-5-2026",
+  "day" : {
+    "en" : "Wednesday",
+    "ta" : "புதன்"
+  },
+  "tamil_month" : {
+    "en" : "Vaikasi",
+    "ta" : "வைகாசி"
+  },
+  "tamil_date" : "13",
+  "tamil_year" : {
+    "en" : "Parapava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Dhul Hijja 9",
+    "ta" : "துல்ஹிஜ்ஜா 9"
+  },
+  "paksha" : {
+    "en" : "Shukla Paksham",
+    "ta" : "சுக்ல பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Ekadasi 08.26 (kaa. 09.14) until, then Dwadasi",
+      "ta" : "ஏகாதசி 08.26 (கா. 09.14) வரை, பின்பு துவாதசி"
+    },
+    "nakshatra" : {
+      "en" : "Hastam 07.06 (kaa. 08.42) until, then Chithirai",
+      "ta" : "ஹஸ்தம் 07.06 (கா. 08.42) வரை, பின்பு சித்திரை"
+    },
+    "lagnam" : {
+      "en" : "Rishaba Lagnam · Duration Na. 2 Vi. 55",
+      "ta" : "இருப்பு நா. 2 வி. 55"
+    },
+    "karanam" : {
+      "en" : "6 - 7.30",
+      "ta" : "6-7.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "5.52",
+      "ta" : "5.52"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "9.30 - 10.30",
+      "ta" : "9.30-10.30"
+    },
+    "evening" : {
+      "en" : "2.00 - 3.00",
+      "ta" : "2.00-3.00"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30 - 11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "6.30 - 7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    },
+    "gulikai" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    },
+    "emagandam" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    }
+  },
+  "soolam" : {
+    "en" : "North",
+    "ta" : "வடக்கு"
+  },
+  "pariharam" : {
+    "en" : "Paal",
+    "ta" : "பால்"
+  },
+  "chandrashtamam" : {
+    "en" : "Poorattathi",
+    "ta" : "பூராட்டாதி"
+  }
+}

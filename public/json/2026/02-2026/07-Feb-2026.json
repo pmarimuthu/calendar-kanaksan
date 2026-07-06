@@ -1,0 +1,94 @@
+{
+  "date" : "07-02-2026",
+  "day" : {
+    "en" : "Saturday",
+    "ta" : "சனி"
+  },
+  "tamil_month" : {
+    "en" : "Thai",
+    "ta" : "தை"
+  },
+  "tamil_date" : "24",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "Shaban 18",
+    "ta" : "ஷெம்பான் 18"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Theypirai Shashti 56.35 (Ka. 05.13), then Sapthami 55.45 (Ka. 04.53)",
+      "ta" : "தேய். ஷஷ்டி 56.35 (கா. 05.13) சித்திரை 55.45 (கா. 04.53)"
+    },
+    "nakshatra" : {
+      "en" : "Thiruval 12.42, then Marana 55.45",
+      "ta" : "தியாவு 12.42 மரண 55.45 மேல் அமிர்த"
+    },
+    "lagnam" : {
+      "en" : "Makara Lagnam, Duration Na. 1 Vi. 05",
+      "ta" : "மகர லக்னம் இருப்பு நா. 1 வி. 05"
+    },
+    "karanam" : {
+      "en" : "12-1.30",
+      "ta" : "12-1.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.35",
+      "ta" : "6.35"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    },
+    "evening" : {
+      "en" : "4.30-5.30",
+      "ta" : "4.30-5.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30-11.00",
+      "ta" : "10.30-11.00"
+    },
+    "evening" : {
+      "en" : "9.30-10.30",
+      "ta" : "9.30-10.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    },
+    "gulikai" : {
+      "morning" : "06.00",
+      "evening" : "07.30"
+    },
+    "emagandam" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    }
+  },
+  "soolam" : {
+    "en" : "East",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Poorattadhi",
+    "ta" : "பூராட்டாதி"
+  }
+}

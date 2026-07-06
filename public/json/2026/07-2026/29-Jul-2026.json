@@ -1,0 +1,94 @@
+{
+  "date" : "29-07-2026",
+  "day" : {
+    "en" : "Wednesday",
+    "ta" : "புதன்"
+  },
+  "tamil_month" : {
+    "en" : "Aadi",
+    "ta" : "ஆடி"
+  },
+  "tamil_date" : "13",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "14",
+    "ta" : "14"
+  },
+  "paksha" : {
+    "en" : "Shukla Paksha",
+    "ta" : "சுக்ல பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Pournami",
+      "ta" : "பௌர்ணமி"
+    },
+    "nakshatra" : {
+      "en" : "Uthiradam 27.45 varai, pinbu Thiruvonam",
+      "ta" : "உத்திராடம் 27.45 வரை, பின்பு திருவோணம்"
+    },
+    "lagnam" : {
+      "en" : "Irruppu Naa. 3 Vi. 26",
+      "ta" : "இருப்பு நா. 3 வி. 26"
+    },
+    "karanam" : {
+      "en" : "6-7.30",
+      "ta" : "6-7.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.02",
+      "ta" : "6.02"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "9.15-10.15",
+      "ta" : "9.15-10.15"
+    },
+    "evening" : {
+      "en" : "4.45-5.45",
+      "ta" : "4.45-5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.45-11.45",
+      "ta" : "10.45-11.45"
+    },
+    "evening" : {
+      "en" : "6.30-7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    },
+    "gulikai" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    },
+    "emagandam" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    }
+  },
+  "soolam" : {
+    "en" : "Vadakku",
+    "ta" : "வடக்கு"
+  },
+  "pariharam" : {
+    "en" : "Paal",
+    "ta" : "பால்"
+  },
+  "chandrashtamam" : {
+    "en" : "Thiruvadhirai, Punarpusam",
+    "ta" : "திருவாதிரை, புனர்பூசம்"
+  }
+}

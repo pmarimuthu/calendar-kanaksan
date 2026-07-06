@@ -1,0 +1,94 @@
+{
+  "date" : "12-05-2026",
+  "day" : {
+    "en" : "Tuesday",
+    "ta" : "செவ்வாய்"
+  },
+  "tamil_month" : {
+    "en" : "Chithirai",
+    "ta" : "சித்திரை"
+  },
+  "tamil_date" : "29",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Thay Pirai 24",
+    "ta" : "தேய்பிறை 24"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksha",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Dasami until 11.44 AM (10.36 AM), then Ekadasi - Poorattadhi until 38.50 (09.26 AM), then Uthirattadhi",
+      "ta" : "தேய். தசமி 11.44 (கா. 10.36) பூரட்டாதி 38.50 (மா. 09.26) வரை, பின்பு உத்திரட்டாதி"
+    },
+    "nakshatra" : {
+      "en" : "Poorattadhi 38.50 (MA. 09.26), then Uthirattadhi",
+      "ta" : "பூரட்டாதி 38.50 (மா. 09.26) வரை, பின்பு உத்திரட்டாதி"
+    },
+    "lagnam" : {
+      "en" : "Mesham Lagnam - Duration Na. 0 Vi. 25",
+      "ta" : "மேஷ லக்னம் · இருப்பு நா. 0 வி. 25"
+    },
+    "karanam" : {
+      "en" : "7.30 - 9",
+      "ta" : "7.30-9"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "5.54",
+      "ta" : "5.54"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.30 - 8.30",
+      "ta" : "7.30-8.30"
+    },
+    "evening" : {
+      "en" : "4.30 - 5.30",
+      "ta" : "4.30-5.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30 - 11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "7.30 - 8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "03.00",
+      "evening" : "04.30"
+    },
+    "gulikai" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    },
+    "emagandam" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    }
+  },
+  "soolam" : {
+    "en" : "North",
+    "ta" : "வடக்கு"
+  },
+  "pariharam" : {
+    "en" : "Paal",
+    "ta" : "பால்"
+  },
+  "chandrashtamam" : {
+    "en" : "Magam, Pooram",
+    "ta" : "மகம், பூரம்"
+  }
+}

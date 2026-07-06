@@ -1,0 +1,94 @@
+{
+  "date" : "14-01-2026",
+  "day" : {
+    "en" : "Wednesday",
+    "ta" : "புதன்"
+  },
+  "tamil_month" : {
+    "en" : "Margazhi",
+    "ta" : "மார்கழி"
+  },
+  "tamil_date" : "30",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "Rajab 24",
+    "ta" : "ரஜப் 24"
+  },
+  "paksha" : {
+    "en" : "Theipirai",
+    "ta" : "தேய்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Ekadasi until Mar. 07.43, then Dwadasi",
+      "ta" : "ஏகாதசி மா.07.43 வரை, பின்பு துவாதசி"
+    },
+    "nakshatra" : {
+      "en" : "Anusham until Kaa. 04.55, then Jyeshta",
+      "ta" : "அனுஷம் 55.52 (கா.04.55) வரை, பின்பு தியாஜு 00.31"
+    },
+    "lagnam" : {
+      "en" : "Iruppu Naa. 0 Vi. 11",
+      "ta" : "இருப்பு நா. 0 வி. 11"
+    },
+    "karanam" : {
+      "en" : "6 - 7.30",
+      "ta" : "6-7.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.34",
+      "ta" : "6.34"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "9.30 - 10.30",
+      "ta" : "9.30-10.30"
+    },
+    "evening" : {
+      "en" : "4.30 - 5.30",
+      "ta" : "4.30-5.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30 - 11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "6.30 - 7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    },
+    "gulikai" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    },
+    "emagandam" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    }
+  },
+  "soolam" : {
+    "en" : "North",
+    "ta" : "வடக்கு"
+  },
+  "pariharam" : {
+    "en" : "Paal",
+    "ta" : "பால்"
+  },
+  "chandrashtamam" : {
+    "en" : "Bharani",
+    "ta" : "பரணி"
+  }
+}

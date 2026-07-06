@@ -1,0 +1,94 @@
+{
+  "date" : "22-02-2025",
+  "day" : {
+    "en" : "Thursday",
+    "ta" : "வியாழன்"
+  },
+  "tamil_month" : {
+    "en" : "Thai",
+    "ta" : "தை"
+  },
+  "tamil_date" : "22",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "Shaban 16",
+    "ta" : "ஷஃபான் 16"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Chaturthi 51.27 (03.11) - then next tithi",
+      "ta" : "தேய். சதுர்த்தி 51.27 (கா. 03.11)"
+    },
+    "nakshatra" : {
+      "en" : "Uthiram 47.43 (01.41) then Thiruvonam",
+      "ta" : "உத்திரம் 47.43 (கா. 01.41), பின்பு திருவோணம்"
+    },
+    "lagnam" : {
+      "en" : "Makara Lagnam - Duration Na. 1 Vi. 27",
+      "ta" : "மகர லக்னம் · இருப்பு நா. 1 வி. 27"
+    },
+    "karanam" : {
+      "en" : "3 - 4.30",
+      "ta" : "3-4.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.36",
+      "ta" : "6.36"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "10.30 - 11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "6.30 - 7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "12.30 - 1.30",
+      "ta" : "12.30-1.30"
+    },
+    "evening" : {
+      "en" : "6.30 - 7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "gulikai" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    },
+    "emagandam" : {
+      "morning" : "06.00",
+      "evening" : "07.30"
+    }
+  },
+  "soolam" : {
+    "en" : "South",
+    "ta" : "தெற்கு"
+  },
+  "pariharam" : {
+    "en" : "Thailam",
+    "ta" : "தைலம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Thiruvonam, Avittam",
+    "ta" : "திருவோணம், அவிட்டம்"
+  }
+}

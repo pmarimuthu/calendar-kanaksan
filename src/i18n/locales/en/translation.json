@@ -1,0 +1,30 @@
+{
+  "section": {
+    "auspicious": "Auspicious Time",
+    "inauspicious": "Time to Avoid"
+  },
+  "label": {
+    "nallaNeram": "Nalla Neram",
+    "gowriNallaNeram": "Gowri Nalla Neram",
+    "rahu": "Rahu Kalam",
+    "emagandam": "Emagandam",
+    "gulikai": "Gulikai",
+    "tithi": "Tithi",
+    "nakshatra": "Nakshatra",
+    "lagnam": "Lagnam",
+    "chandrashtamam": "Chandrashtamam",
+    "soolam": "Soolam",
+    "pariharam": "Pariharam",
+    "sunrise": "Sunrise",
+    "year": "Year"
+  },
+  "status": {
+    "loading": "Loading daily sheet…",
+    "error": "Could not load data.",
+    "retry": "Retry"
+  },
+  "months": [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ]
+}

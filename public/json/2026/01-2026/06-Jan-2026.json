@@ -1,0 +1,94 @@
+{
+  "date" : "06-01-2026",
+  "day" : {
+    "en" : "Tuesday",
+    "ta" : "செவ்வாய்"
+  },
+  "tamil_month" : {
+    "en" : "Margazhi",
+    "ta" : "மார்கழி"
+  },
+  "tamil_date" : "22",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "Rajab 16",
+    "ta" : "ரஜப் 16"
+  },
+  "paksha" : {
+    "en" : "Theipirai",
+    "ta" : "தேய்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Thiritihai until Ma.12.16, then Chaturthi",
+      "ta" : "திரிதியை மா.12.16 வரை, பின்பு சதுர்த்தி"
+    },
+    "nakshatra" : {
+      "en" : "Ayilyam until Ma.04.37, then Magam",
+      "ta" : "ஆயில்யம் மா.04.37 வரை, பின்பு மகம்"
+    },
+    "lagnam" : {
+      "en" : "Thanur Lagnam · Iruppu Na. 1 Vi. 39",
+      "ta" : "தனுர் லக்னம் · இருப்பு நா. 1 வி. 39"
+    },
+    "karanam" : {
+      "en" : "7.30-9",
+      "ta" : "7.30-9"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.32",
+      "ta" : "6.32"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "10.30-11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "4.30-5.30",
+      "ta" : "4.30-5.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "1.30-2.30",
+      "ta" : "1.30-2.30"
+    },
+    "evening" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "03.00-04.30",
+      "evening" : "01.30"
+    },
+    "gulikai" : {
+      "morning" : "12.00",
+      "evening" : "10.30"
+    },
+    "emagandam" : {
+      "morning" : "09.00",
+      "evening" : ""
+    }
+  },
+  "soolam" : {
+    "en" : "Vadakku (North)",
+    "ta" : "வடக்கு"
+  },
+  "pariharam" : {
+    "en" : "Paal",
+    "ta" : "பால்"
+  },
+  "chandrashtamam" : {
+    "en" : "Pooradam, Uthiradam",
+    "ta" : "பூராடம், உத்திராடம்"
+  }
+}

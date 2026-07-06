@@ -1,0 +1,94 @@
+{
+  "date" : "4-1-26",
+  "day" : {
+    "en" : "Sunday",
+    "ta" : "ஞாயிறு"
+  },
+  "tamil_month" : {
+    "en" : "Margazhi",
+    "ta" : "மார்கழி"
+  },
+  "tamil_date" : "20",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "Rajab 14",
+    "ta" : "ரஜப் 14"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Prathama until Ma.02.53, then Dwithiyai",
+      "ta" : "பிரதமை மா.02.53 வரை, பின்பு துவிதியை"
+    },
+    "nakshatra" : {
+      "en" : "Punarpusam 28.16 (Ma.05.49) vare, pinbu Pusam",
+      "ta" : "புனர்பூசம் 28.16 (மா.05.49) வரை, பின்பு பூசம்"
+    },
+    "lagnam" : {
+      "en" : "Dhanus Lagnam · Iruppu Na. 2 Vi. 01",
+      "ta" : "தனுர் லக்னம் · இருப்பு நா. 2 வி. 01"
+    },
+    "karanam" : {
+      "en" : "10.30-12",
+      "ta" : "10.30-12"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.31",
+      "ta" : "6.31"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "6.00-7.00",
+      "ta" : "6.00-7.00"
+    },
+    "evening" : {
+      "en" : "3.30-4.30",
+      "ta" : "3.30-4.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30-11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "1.30-2.30",
+      "ta" : "1.30-2.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "04.30",
+      "evening" : "06.00"
+    },
+    "gulikai" : {
+      "morning" : "03.00",
+      "evening" : "04.30"
+    },
+    "emagandam" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    }
+  },
+  "soolam" : {
+    "en" : "West",
+    "ta" : "மேற்கு"
+  },
+  "pariharam" : {
+    "en" : "Vellam",
+    "ta" : "வெல்லம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Kettai, Mulam",
+    "ta" : "கேட்டை, மூலம்"
+  }
+}

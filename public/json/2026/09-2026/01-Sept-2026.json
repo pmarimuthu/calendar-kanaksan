@@ -1,0 +1,94 @@
+{
+  "date" : "1-9-2026",
+  "day" : {
+    "en" : "Tuesday",
+    "ta" : "செவ்வாய்"
+  },
+  "tamil_month" : {
+    "en" : "Aavani",
+    "ta" : "ஆவணி"
+  },
+  "tamil_date" : "15",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "18",
+    "ta" : "18"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Sathurthi until 07.56, then Panchami",
+      "ta" : "சதுர்த்தி கா.07.56 வரை, பின்பு பஞ்சமி"
+    },
+    "nakshatra" : {
+      "en" : "Revathi until 04.26, then Aswabathi",
+      "ta" : "ரேவதி கா.04.26 வரை, பின்பு அசுபதி"
+    },
+    "lagnam" : {
+      "en" : "Simba Lagnam, duration Na. 2 Vi. 53",
+      "ta" : "சிம்ம லக்னம் இருப்பு நா. 2 வி. 53"
+    },
+    "karanam" : {
+      "en" : "7.30-9",
+      "ta" : "7.30-9"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.04",
+      "ta" : "6.04"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.45-8.45",
+      "ta" : "7.45-8.45"
+    },
+    "evening" : {
+      "en" : "4.45-5.45",
+      "ta" : "4.45-5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.45-11.45",
+      "ta" : "10.45-11.45"
+    },
+    "evening" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "03.00",
+      "evening" : "04.30"
+    },
+    "gulikai" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    },
+    "emagandam" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    }
+  },
+  "soolam" : {
+    "en" : "North",
+    "ta" : "வடக்கு"
+  },
+  "pariharam" : {
+    "en" : "Paal",
+    "ta" : "பால்"
+  },
+  "chandrashtamam" : {
+    "en" : "Simbu, Hastham",
+    "ta" : "சிம்புத, ஹஸ்தம்"
+  }
+}

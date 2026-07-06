@@ -1,0 +1,94 @@
+{
+  "date" : "24-08-2026",
+  "day" : {
+    "en" : "Monday",
+    "ta" : "திங்கள்"
+  },
+  "tamil_month" : {
+    "en" : "Aavani",
+    "ta" : "ஆவணி"
+  },
+  "tamil_date" : "7",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "",
+    "ta" : ""
+  },
+  "paksha" : {
+    "en" : "Shukla Paksha",
+    "ta" : "சுக்ல பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Dwadashi 60.00 (full) Pooradam 40.28 (10.16), then Trayodashi",
+      "ta" : "துவாதசி 60.00 (முழுவதும்) பூராடம் 40.28 (மா. 10.16), பின்பு த்ரயோதசி"
+    },
+    "nakshatra" : {
+      "en" : "Pooradam 40.28 (10.16), then Uttiradam",
+      "ta" : "பூராடம் மா.10.16 வரை, பின்பு உத்திராடம்"
+    },
+    "lagnam" : {
+      "en" : "Simha Lagnam · Duration Na. 4 Vi. 14",
+      "ta" : "சிம்ம லக்னம் · இருப்பு நா. 4 வி. 14"
+    },
+    "karanam" : {
+      "en" : "9-10.30",
+      "ta" : "9-10.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.05",
+      "ta" : "6.05"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "9.15-10.15",
+      "ta" : "9.15-10.15"
+    },
+    "evening" : {
+      "en" : "4.45-5.45",
+      "ta" : "4.45-5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "1.45-2.45",
+      "ta" : "1.45-2.45"
+    },
+    "evening" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "7.30",
+      "evening" : "9.00"
+    },
+    "gulikai" : {
+      "morning" : "1.30",
+      "evening" : "3.00"
+    },
+    "emagandam" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    }
+  },
+  "soolam" : {
+    "en" : "East",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir (Curd)",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Mirugasheersham, Thiruvadhirai",
+    "ta" : "மிருகசீருஷம், திருவாதிரை"
+  }
+}

@@ -1,0 +1,214 @@
+/* Tamil Daily Sheet — visual design ported 1:1 from the frozen kanaksan.com
+   template (template.html / tamil-daily-sheet-preview.html). Colors and
+   spacing are driven entirely by the --tds-* custom properties injected by
+   useTheme(), so dark/light and future named themes need no rule changes here. */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600&display=swap');
+
+.tdscal-root {
+  font-family: 'Noto Sans Tamil', system-ui, -apple-system, sans-serif;
+  color: var(--tds-text);
+  max-width: 680px;
+}
+
+.tdscal-root *,
+.tdscal-root *::before,
+.tdscal-root *::after {
+  box-sizing: border-box;
+}
+
+.tdscal-icon {
+  width: 15px;
+  height: 15px;
+  vertical-align: -2px;
+  margin-right: 4px;
+  flex: none;
+}
+
+.tdscal-card {
+  background: var(--tds-bg);
+  border: 0.5px solid var(--tds-border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tdscal-header {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 0.5px solid var(--tds-border);
+}
+
+.tdscal-header-date {
+  flex: 0 0 auto;
+  padding: 1rem 1.25rem;
+  border-right: 0.5px solid var(--tds-border);
+  text-align: center;
+  min-width: 130px;
+}
+
+.tdscal-header-day {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--tds-info);
+}
+
+.tdscal-header-month {
+  font-size: 14px;
+  color: var(--tds-text-secondary);
+  margin-top: 6px;
+}
+
+.tdscal-header-meta {
+  flex: 1;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tdscal-header-weekday {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tdscal-header-tamil {
+  font-size: 15px;
+  color: var(--tds-text-secondary);
+  margin-top: 6px;
+}
+
+.tdscal-header-sunrise {
+  font-size: 13px;
+  color: var(--tds-text-tertiary);
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.tdscal-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5px;
+  background: var(--tds-border);
+  border-bottom: 0.5px solid var(--tds-border);
+}
+
+.tdscal-cell {
+  background: var(--tds-bg);
+  padding: 1rem 1.25rem;
+}
+
+.tdscal-au-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--tds-success);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.tdscal-au-item {
+  margin-bottom: 12px;
+}
+
+.tdscal-au-item:last-child {
+  margin-bottom: 0;
+}
+
+.tdscal-au-label {
+  font-size: 13px;
+  color: var(--tds-text-secondary);
+  margin-bottom: 4px;
+}
+
+.tdscal-au-times {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tdscal-ia-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--tds-danger);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.tdscal-ia-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  row-gap: 8px;
+  column-gap: 16px;
+  font-size: 14px;
+  align-items: baseline;
+}
+
+.tdscal-ia-label {
+  color: var(--tds-text-secondary);
+}
+
+.tdscal-ia-time {
+  font-weight: 500;
+}
+
+.tdscal-pd {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5px;
+  background: var(--tds-border);
+}
+
+.tdscal-pd-item {
+  background: var(--tds-bg);
+  padding: 12px 1.25rem;
+}
+
+.tdscal-pd-label {
+  font-size: 12px;
+  color: var(--tds-text-tertiary);
+}
+
+.tdscal-pd-value {
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.tdscal-status {
+  background: var(--tds-bg);
+  border: 0.5px solid var(--tds-border);
+  border-radius: 12px;
+  padding: 2rem 1.25rem;
+  text-align: center;
+  color: var(--tds-text-secondary);
+  font-size: 14px;
+}
+
+.tdscal-status-error {
+  color: var(--tds-danger);
+}
+
+.tdscal-retry {
+  margin-top: 12px;
+  padding: 6px 16px;
+  border-radius: 8px;
+  border: 0.5px solid var(--tds-border);
+  background: transparent;
+  color: var(--tds-text);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.tdscal-retry:hover {
+  background: var(--tds-page);
+}
+
+@media (max-width: 560px) {
+  .tdscal-row,
+  .tdscal-pd {
+    grid-template-columns: 1fr;
+  }
+}

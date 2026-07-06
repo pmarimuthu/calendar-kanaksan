@@ -1,0 +1,94 @@
+{
+  "date" : "25-04-2026",
+  "day" : {
+    "en" : "Saturday",
+    "ta" : "சனி"
+  },
+  "tamil_month" : {
+    "en" : "Chithirai",
+    "ta" : "சித்திரை"
+  },
+  "tamil_date" : "12",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "7",
+    "ta" : "7"
+  },
+  "paksha" : {
+    "en" : "Shukla Paksha",
+    "ta" : "சுக்ல பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Navami 41.41 (Mar. 10.39) until, then Ayilyam 44.38 (Mar. 11.50)",
+      "ta" : "நவமி 41.41 (மா. 10.39) வரை, பின்பு ஆயில்யம் 44.38 (மா. 11.50)"
+    },
+    "nakshatra" : {
+      "en" : "Thiyaju 17.35, Marana 44.38",
+      "ta" : "தியாஜ் 17.35, மரண 44.38"
+    },
+    "lagnam" : {
+      "en" : "Mesha Lagnam, Duration Na. 2 Vi. 44",
+      "ta" : "மேஷ லக்னம் இருப்பு நா. 2 வி. 44"
+    },
+    "karanam" : {
+      "en" : "12.00-1.30",
+      "ta" : "12.00-1.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "5.59",
+      "ta" : "5.59"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    },
+    "evening" : {
+      "en" : "4.30-5.30",
+      "ta" : "4.30-5.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30-11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "9.30-10.30",
+      "ta" : "9.30-10.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    },
+    "gulikai" : {
+      "morning" : "06.00",
+      "evening" : "07.30"
+    },
+    "emagandam" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    }
+  },
+  "soolam" : {
+    "en" : "East",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Pooradam, Uthiradam",
+    "ta" : "பூராடம், உத்திராடம்"
+  }
+}

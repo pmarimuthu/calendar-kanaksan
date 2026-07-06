@@ -1,0 +1,94 @@
+{
+  "date" : "22-10-2026",
+  "day" : {
+    "en" : "Thursday",
+    "ta" : "வியாழன்"
+  },
+  "tamil_month" : {
+    "en" : "Aippasi",
+    "ta" : "ஐப்பசி"
+  },
+  "tamil_date" : "5",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Jamad ul 10",
+    "ta" : "ஜமாத்துல் அவ்வல் 10"
+  },
+  "paksha" : {
+    "en" : "Shukla Paksha",
+    "ta" : "வளர்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Ekadasi Ma.12.30 varai, pinbu Dwadasi",
+      "ta" : "ஏகாதசி மா.12.30 வரை, பின்பு துவாதசி"
+    },
+    "nakshatra" : {
+      "en" : "Sadayam Ma.07.30 varai, pinbu Poorattadhi",
+      "ta" : "சதயம் மா.07.30 வரை, பின்பு பூராட்டாதி"
+    },
+    "lagnam" : {
+      "en" : "Iruppu Na. 4 Vi. 20",
+      "ta" : "இருப்பு நா. 4 வி. 20"
+    },
+    "karanam" : {
+      "en" : "3-4.30",
+      "ta" : "3-4.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.02",
+      "ta" : "6.02"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "10.45-11.45",
+      "ta" : "10.45-11.45"
+    },
+    "evening" : {
+      "en" : "12.15-1.15",
+      "ta" : "12.15-1.15"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "------------",
+      "ta" : "------------"
+    },
+    "evening" : {
+      "en" : "6.30-7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "gulikai" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    },
+    "emagandam" : {
+      "morning" : "06.00",
+      "evening" : "07.30"
+    }
+  },
+  "soolam" : {
+    "en" : "South",
+    "ta" : "தெற்கு"
+  },
+  "pariharam" : {
+    "en" : "Thailam",
+    "ta" : "தைலம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Ayilyam, Magam",
+    "ta" : "ஆயிலியம், மகம்"
+  }
+}

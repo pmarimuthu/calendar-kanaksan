@@ -1,0 +1,94 @@
+{
+  "date" : "20-12-2026",
+  "day" : {
+    "en" : "Sunday",
+    "ta" : "ஞாயிறு"
+  },
+  "tamil_month" : {
+    "en" : "Margazhi",
+    "ta" : "மார்கழி"
+  },
+  "tamil_date" : "5",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Rajab 10",
+    "ta" : "ரஜப் 10"
+  },
+  "paksha" : {
+    "en" : "Shukla Paksham",
+    "ta" : "சுக்ல பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Ekadasi 24.05 (Mar. 04.02) then Dwadasi",
+      "ta" : "ஏகாதசி 24.05 (மா. 04.02) அடுபதி, பின்பு துவாதசி"
+    },
+    "nakshatra" : {
+      "en" : "Bharani",
+      "ta" : "பரணி"
+    },
+    "lagnam" : {
+      "en" : "Taurus Lagnam · Duration Na. 4 Vi. 46",
+      "ta" : "தனு லக்னம் · இருப்பு நா. 4 வி. 46"
+    },
+    "karanam" : {
+      "en" : "10.30-12",
+      "ta" : "10.30-12"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.24",
+      "ta" : "6.24"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "6.00-7.00",
+      "ta" : "6.00-7.00"
+    },
+    "evening" : {
+      "en" : "3.15-4.15",
+      "ta" : "3.15-4.15"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.45-11.45",
+      "ta" : "10.45-11.45"
+    },
+    "evening" : {
+      "en" : "1.30-2.30",
+      "ta" : "1.30-2.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "04.30",
+      "evening" : "04.30"
+    },
+    "gulikai" : {
+      "morning" : "03.00",
+      "evening" : "06.00"
+    },
+    "emagandam" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    }
+  },
+  "soolam" : {
+    "en" : "West",
+    "ta" : "மேற்கு"
+  },
+  "pariharam" : {
+    "en" : "Vellam",
+    "ta" : "வெல்லம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Chithirai, Swathi",
+    "ta" : "சித்திரை, சுவாதி"
+  }
+}

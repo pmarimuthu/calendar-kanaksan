@@ -1,0 +1,94 @@
+{
+  "date" : "14-10-2026",
+  "day" : {
+    "en" : "Wednesday",
+    "ta" : "புதன்"
+  },
+  "tamil_month" : {
+    "en" : "Purattasi",
+    "ta" : "புரட்டாசி"
+  },
+  "tamil_date" : "27",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Jamad-ul-Awwal 2",
+    "ta" : "ஜமாத்துல் அவ்வல் 2"
+  },
+  "paksha" : {
+    "en" : "Valar Pirai",
+    "ta" : "வளர்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Chaturthi 48.05 (01.16) ends, then Chaturthi Viratham",
+      "ta" : "வளர். சதுர்த்தி 48.05 (கா. 01.16) அனுஷம் 57.05 (கா. 04.52) தியாஜ் 02.35 சித்த. சதுர்த்தி விரதம்"
+    },
+    "nakshatra" : {
+      "en" : "Anusham 57.05 (04.52)",
+      "ta" : "அனுஷம் 57.05 (கா. 04.52)"
+    },
+    "lagnam" : {
+      "en" : "Kanni Lagnam - Duration Na. 0 Vi. 40",
+      "ta" : "கன்னியா லக்னம் இருப்பு நா. 0 வி. 40"
+    },
+    "karanam" : {
+      "en" : "6-7.30",
+      "ta" : "6-7.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.02",
+      "ta" : "6.02"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "9.15-10.15",
+      "ta" : "9.15-10.15"
+    },
+    "evening" : {
+      "en" : "4.45-5.45",
+      "ta" : "4.45-5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.45-11.45",
+      "ta" : "10.45-11.45"
+    },
+    "evening" : {
+      "en" : "6.30-7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    },
+    "gulikai" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    },
+    "emagandam" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    }
+  },
+  "soolam" : {
+    "en" : "Vadaku (North)",
+    "ta" : "வடக்கு"
+  },
+  "pariharam" : {
+    "en" : "Paal (Milk)",
+    "ta" : "பால்"
+  },
+  "chandrashtamam" : {
+    "en" : "Bharani",
+    "ta" : "பரணி"
+  }
+}

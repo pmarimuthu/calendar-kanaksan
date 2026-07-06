@@ -1,0 +1,94 @@
+{
+  "date" : "29-01-2026",
+  "day" : {
+    "en" : "Thursday",
+    "ta" : "வியாழன்"
+  },
+  "tamil_month" : {
+    "en" : "Thai",
+    "ta" : "தை"
+  },
+  "tamil_date" : "15",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "9",
+    "ta" : "9"
+  },
+  "paksha" : {
+    "en" : "Shukla Paksham",
+    "ta" : "சுக்ல பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Ekadasi 14.13 (12.17) until, then Dwadasi",
+      "ta" : "ஏகாதசி 14.13 (மா. 12.17) வரை, பின்பு துவாதசி"
+    },
+    "nakshatra" : {
+      "en" : "Mrigasheersham 54.39 (Ka. 04.28) until, then Thiruvadhirai",
+      "ta" : "மிருகசீருஷம் 54.39 (கா. 04.28) வரை, பின்பு திருவாதிரை"
+    },
+    "lagnam" : {
+      "en" : "Makara Lagnam - Duration Na. 2 Vi. 43",
+      "ta" : "மகர லக்னம் · இருப்பு நா. 2 வி. 43"
+    },
+    "karanam" : {
+      "en" : "3-4.30",
+      "ta" : "3-4.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.36",
+      "ta" : "6.36"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "10.30-11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "12.45-1.30",
+      "ta" : "12.45-1.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "------------",
+      "ta" : "------------"
+    },
+    "evening" : {
+      "en" : "6.30-7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "gulikai" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    },
+    "emagandam" : {
+      "morning" : "06.00",
+      "evening" : "07.30"
+    }
+  },
+  "soolam" : {
+    "en" : "South",
+    "ta" : "தெற்கு"
+  },
+  "pariharam" : {
+    "en" : "Thailam",
+    "ta" : "தைலம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Visakam",
+    "ta" : "விசாகம்"
+  }
+}

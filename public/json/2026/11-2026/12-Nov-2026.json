@@ -1,0 +1,94 @@
+{
+  "date" : "12-11-2026",
+  "day" : {
+    "en" : "Thursday",
+    "ta" : "வியாழன்"
+  },
+  "tamil_month" : {
+    "en" : "Aippasi",
+    "ta" : "ஐப்பசி"
+  },
+  "tamil_date" : "26",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Jamaadul Aakhir 2",
+    "ta" : "ஜமாஅத்துல் ஆகிர் 2"
+  },
+  "paksha" : {
+    "en" : "Shukla Paksha",
+    "ta" : "வளர்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Thritiyai 28.38 (Mar. 05.39) varai, pinbu Kattai 20.57 (Mar. 02.35)",
+      "ta" : "திரிதியை 28.38 (மா. 05.39) வரை, பின்பு கேட்டை 20.57 (மா. 02.35)"
+    },
+    "nakshatra" : {
+      "en" : "Kettai 20.57 (Mar. 02.35) varai, pinbu Moolam, Thiyazh 43.10",
+      "ta" : "கேட்டை 20.57 (மா. 02.35) வரை, பின்பு மூலம், தியாழ் 43.10"
+    },
+    "lagnam" : {
+      "en" : "Thula Lagnam · Iruppu Na. 0 Vi. 50",
+      "ta" : "துலா லக்னம் · இருப்பு நா. 0 வி. 50"
+    },
+    "karanam" : {
+      "en" : "3 - 4.30",
+      "ta" : "3-4.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.12",
+      "ta" : "6.12"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "10.45 - 11.45",
+      "ta" : "10.45 - 11.45"
+    },
+    "evening" : {
+      "en" : "12.15 - 1.15",
+      "ta" : "12.15 - 1.15"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "------------",
+      "ta" : "------------"
+    },
+    "evening" : {
+      "en" : "6.30 - 7.30",
+      "ta" : "6.30 - 7.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "gulikai" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    },
+    "emagandam" : {
+      "morning" : "06.00",
+      "evening" : "07.30"
+    }
+  },
+  "soolam" : {
+    "en" : "South",
+    "ta" : "தெற்கு"
+  },
+  "pariharam" : {
+    "en" : "Thailam",
+    "ta" : "தைலம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Barani, Karthigai",
+    "ta" : "பரணி, கார்த்திகை"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "date": "29-6-2026",
+  "day": { "en": "Monday", "ta": "திங்கள்" },
+  "tamil_month": { "en": "Aani", "ta": "ஆனி" },
+  "tamil_date": "15",
+  "tamil_year": { "en": "Parabava", "ta": "பராபவ" },
+  "islamic_date": { "en": "Muharram 13", "ta": "முஹர்ரம் 13" },
+  "paksha": { "en": "Shukla Paksham", "ta": "சுக்ல பட்சம்" },
+  "panchangam": {
+    "tithi":     { "en": "Chaturdashi until 04.21, then Pournami", "ta": "சதுர்த்தசி கா.04.21 வரை, பின்பு பௌர்ணமி" },
+    "nakshatra": { "en": "Kettai until 02.43, then Moolam", "ta": "கேட்டை கா.02.43 வரை, பின்பு மூலம்" },
+    "lagnam":    { "en": "Mithunam Lagnam - Iruppu Naa. 2 Vi. 57", "ta": "மிதுன லக்னம் · இருப்பு நா. 2 வி. 57" },
+    "karanam":   { "en": "9-10.30", "ta": "9-10.30" }
+  },
+  "timings": {
+    "sunrise": { "en": "5.56", "ta": "5.56" }
+  },
+  "auspicious_times": {
+    "morning": { "en": "6.15-7.15", "ta": "6.15-7.15" },
+    "evening": { "en": "4.45-5.45", "ta": "4.45-5.45" }
+  },
+  "gowri_nalla_neram": {
+    "morning": { "en": "9.15-10.15", "ta": "9.15-10.15" },
+    "evening": { "en": "7.30-8.30", "ta": "7.30-8.30" }
+  },
+  "inauspicious_times": {
+    "rahu":      { "morning": "07.30", "evening": "09.00" },
+    "gulikai":   { "morning": "01.30", "evening": "03.00" },
+    "emagandam": { "morning": "10.30", "evening": "12.00" }
+  },
+  "soolam":    { "en": "Kizhakku (East)", "ta": "கிழக்கு" },
+  "pariharam": { "en": "Thayir (Curd)", "ta": "தயிர்" },
+  "chandrashtamam": { "en": "Rogini", "ta": "ரோகிணி" }
+}

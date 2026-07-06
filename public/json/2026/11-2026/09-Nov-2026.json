@@ -1,0 +1,94 @@
+{
+  "date" : "9-11-2026",
+  "day" : {
+    "en" : "Monday",
+    "ta" : "திங்கள்"
+  },
+  "tamil_month" : {
+    "en" : "Aippasi",
+    "ta" : "ஐப்பசி"
+  },
+  "tamil_date" : "23",
+  "tamil_year" : {
+    "en" : "Sri Parabava",
+    "ta" : "ஸ்ரீ பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Jamaa-ath-ul Avval 28",
+    "ta" : "ஜமாஅத்துல் அவ்வல் 28"
+  },
+  "paksha" : {
+    "en" : "Shukla Paksham",
+    "ta" : "சுக்ல பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Amavasai until 16.31 (Mar. 12.46), then Prathami",
+      "ta" : "அமாவாசை 16.31 (மா.12.46) வரை, பின்பு பிரதமை"
+    },
+    "nakshatra" : {
+      "en" : "Swathi until 05.24 (Kar. 08.20), then Vishakam until 20.26, then Amirtham 05.24",
+      "ta" : "சுவாதி 05.24 (கா.08.20) வரை, பின்பு விசாகம் 20.26, அமிர்த 05.24"
+    },
+    "lagnam" : {
+      "en" : "Virushaba Lagnam - Iruppu Na. 1 Vi. 20",
+      "ta" : "விருஷப லக்னம் · இருப்பு நா. 1 வி. 20"
+    },
+    "karanam" : {
+      "en" : "9-10.30",
+      "ta" : "9-10.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.10",
+      "ta" : "6.10"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "6.15-7.15",
+      "ta" : "6.15-7.15"
+    },
+    "evening" : {
+      "en" : "4.45-5.45",
+      "ta" : "4.45-5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "9.15-10.15",
+      "ta" : "9.15-10.15"
+    },
+    "evening" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    },
+    "gulikai" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "emagandam" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    }
+  },
+  "soolam" : {
+    "en" : "Kizhakku (East)",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir (Curd)",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Santhirashtamam - Revathi",
+    "ta" : "சந்திராஷ்டமம் - ரேவதி"
+  }
+}

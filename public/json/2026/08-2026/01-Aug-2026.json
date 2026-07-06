@@ -1,0 +1,94 @@
+{
+  "date" : "1-8-2026",
+  "day" : {
+    "en" : "Saturday",
+    "ta" : "சனி"
+  },
+  "tamil_month" : {
+    "en" : "Aadi",
+    "ta" : "ஆடி"
+  },
+  "tamil_date" : "16",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "17",
+    "ta" : "17"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksha",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Thrithiyai until MA.10.37, then Chathurthi",
+      "ta" : "திரிதியை மா.10.37 வரை, பின்பு சதுர்த்தி"
+    },
+    "nakshatra" : {
+      "en" : "Sathayam until MA.08.58, then Poorattathi",
+      "ta" : "சதயம் மா.08.58 வரை, பின்பு பூராட்டாதி"
+    },
+    "lagnam" : {
+      "en" : "Gizakku Lagnam · Iruppu Na. 2 Vi. 55",
+      "ta" : "கிழக்கு லக்னம் · இருப்பு நா. 2 வி. 55"
+    },
+    "karanam" : {
+      "en" : "12-1.30",
+      "ta" : "12-1.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.03",
+      "ta" : "6.03"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.45-8.45",
+      "ta" : "7.45-8.45"
+    },
+    "evening" : {
+      "en" : "4.45-5.45",
+      "ta" : "4.45-5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.45-11.45",
+      "ta" : "10.45-11.45"
+    },
+    "evening" : {
+      "en" : "9.30-10.30",
+      "ta" : "9.30-10.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "09.00",
+      "evening" : "07.30"
+    },
+    "gulikai" : {
+      "morning" : "06.00",
+      "evening" : "03.00"
+    },
+    "emagandam" : {
+      "morning" : "01.30",
+      "evening" : ""
+    }
+  },
+  "soolam" : {
+    "en" : "Kizhakku (East)",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir (Curd)",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Sathayam, Poorattathi",
+    "ta" : "சதயம், பூராட்டாதி"
+  }
+}

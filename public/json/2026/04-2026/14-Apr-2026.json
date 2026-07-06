@@ -1,0 +1,94 @@
+{
+  "date" : "14-04-2026",
+  "day" : {
+    "en" : "Tuesday",
+    "ta" : "செவ்வாய்"
+  },
+  "tamil_month" : {
+    "en" : "Chithirai",
+    "ta" : "சித்திரை"
+  },
+  "tamil_date" : "1",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Shawwal 25",
+    "ta" : "ஷெவ்வால் 25"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Dwadashi 39.37 (Mar 09.55) until, then Trayodashi",
+      "ta" : "துவாதசி 39.37 (மா. 09.55) வரை, பின்பு த்ரயோதசி"
+    },
+    "nakshatra" : {
+      "en" : "Sathayam 19.04 (Mar 01.42) until, then Poorattadhi 35.01",
+      "ta" : "சதயம் 19.04 (மா. 01.42) வரை, பின்பு பூராட்டாதி 35.01"
+    },
+    "lagnam" : {
+      "en" : "Mesha Lagnam · Duration Na. 4 Vi. 15",
+      "ta" : "மேஷ லக்னம் · இருப்பு நா. 4 வி. 15"
+    },
+    "karanam" : {
+      "en" : "Karanam 7.30 - 9.00",
+      "ta" : "கரணம் : 7.30 - 9.00"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.04",
+      "ta" : "6.04"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.30 - 8.30",
+      "ta" : "7.30 - 8.30"
+    },
+    "evening" : {
+      "en" : "4.30 - 5.30",
+      "ta" : "4.30 - 5.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30 - 11.30",
+      "ta" : "10.30 - 11.30"
+    },
+    "evening" : {
+      "en" : "7.30 - 8.30",
+      "ta" : "7.30 - 8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "03.00 - 04.30",
+      "evening" : "12.00 - 01.30"
+    },
+    "gulikai" : {
+      "morning" : "04.30",
+      "evening" : "10.30"
+    },
+    "emagandam" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    }
+  },
+  "soolam" : {
+    "en" : "North",
+    "ta" : "வடக்கு"
+  },
+  "pariharam" : {
+    "en" : "Milk",
+    "ta" : "பால்"
+  },
+  "chandrashtamam" : {
+    "en" : "Ayilyam, Makam",
+    "ta" : "ஆயிலியம், மகம்"
+  }
+}

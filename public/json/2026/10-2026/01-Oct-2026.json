@@ -1,0 +1,94 @@
+{
+  "date" : "01-10-2026",
+  "day" : {
+    "en" : "Thursday",
+    "ta" : "வியாழன்"
+  },
+  "tamil_month" : {
+    "en" : "Purattasi",
+    "ta" : "புரட்டாசி"
+  },
+  "tamil_date" : "14",
+  "tamil_year" : {
+    "en" : "Sri Parabava",
+    "ta" : "ஸ்ரீ பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Rabiul Aakhir 19",
+    "ta" : "ரபிஉல்ஆகிர் 19"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Panchami until 22.13 (Mar. 02.55), then Shashti - Karthigai until 07.11 (Kar. 08.54), then Rohini",
+      "ta" : "பஞ்சமி மா.02.55 வரை, பின்பு ஷஷ்டி - கார்த்திகை கா.08.54 வரை, பின்பு ரோகிணி"
+    },
+    "nakshatra" : {
+      "en" : "Karthigai until 07.11 (Kar. 08.54), then Rohini",
+      "ta" : "கார்த்திகை கா.08.54 வரை, பின்பு ரோகிணி"
+    },
+    "lagnam" : {
+      "en" : "Kanya Lagnam · Duration Na. 2 Vi. 50",
+      "ta" : "கன்னியா லக்னம் · இருப்பு நா. 2 வி. 50"
+    },
+    "karanam" : {
+      "en" : "3-4.30",
+      "ta" : "3-4.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.02",
+      "ta" : "6.02"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "10.45-11.45",
+      "ta" : "10.45-11.45"
+    },
+    "evening" : {
+      "en" : "6.30-7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "------------",
+      "ta" : "------------"
+    },
+    "evening" : {
+      "en" : "12.15-1.15",
+      "ta" : "12.15-1.15"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "gulikai" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    },
+    "emagandam" : {
+      "morning" : "06.00",
+      "evening" : "07.30"
+    }
+  },
+  "soolam" : {
+    "en" : "South",
+    "ta" : "தெற்கு"
+  },
+  "pariharam" : {
+    "en" : "Thailam",
+    "ta" : "தைலம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Suvathi",
+    "ta" : "சுவாதி"
+  }
+}

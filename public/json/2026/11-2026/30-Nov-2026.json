@@ -1,0 +1,94 @@
+{
+  "date" : "30-11-2026",
+  "day" : {
+    "en" : "Monday",
+    "ta" : "திங்கள்"
+  },
+  "tamil_month" : {
+    "en" : "Karthigai",
+    "ta" : "கார்த்திகை"
+  },
+  "tamil_date" : "14",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Jamaa-ath-ul-Aakhir 20",
+    "ta" : "ஜமாஅத்துல் ஆகிர் 20"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Shashthi 04.26 (Ka. 08.01) until, then Saptami 55.06 (Ka. 04.17) until",
+      "ta" : "ஷஷ்டி 04.26 (கா. 08.01) வரை, பின்பு சப்தமி 55.06 (கா. 04.17) வரை"
+    },
+    "nakshatra" : {
+      "en" : "Ayilyam 24.10 (Ma. 03.55) until, then Magam",
+      "ta" : "ஆயில்யம் 24.10 (மா. 03.55) வரை, பின்பு மகம்"
+    },
+    "lagnam" : {
+      "en" : "Viruchiga Lagnam · Iruppu Na. 2 Vi. 54",
+      "ta" : "விருச்சிக லக்னம் · இருப்பு நா. 2 வி. 54"
+    },
+    "karanam" : {
+      "en" : "9-10.30",
+      "ta" : "9-10.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.15",
+      "ta" : "6.15"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "9.15-10.15",
+      "ta" : "9.15-10.15"
+    },
+    "evening" : {
+      "en" : "4.45-5.45",
+      "ta" : "4.45-5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "1.45-2.45",
+      "ta" : "1.45-2.45"
+    },
+    "evening" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    },
+    "gulikai" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "emagandam" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    }
+  },
+  "soolam" : {
+    "en" : "East",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Uthiradam, Thiruvonam",
+    "ta" : "உத்திராடம், திருவோணம்"
+  }
+}

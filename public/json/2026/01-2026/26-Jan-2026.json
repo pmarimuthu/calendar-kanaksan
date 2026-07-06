@@ -1,0 +1,94 @@
+{
+  "date" : "26-01-2026",
+  "day" : {
+    "en" : "Monday",
+    "ta" : "திங்கள்"
+  },
+  "tamil_month" : {
+    "en" : "Thai",
+    "ta" : "தை"
+  },
+  "tamil_date" : "12",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "6",
+    "ta" : "6"
+  },
+  "paksha" : {
+    "en" : "Valarpirai",
+    "ta" : "வளர்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Ashtami till Mar 07.11, then Navami",
+      "ta" : "அஷ்டமி மா.07.11 வரை, பின்பு நவமி"
+    },
+    "nakshatra" : {
+      "en" : "Asubathi till Kaa 10.50, then Bharani",
+      "ta" : "அசுபதி கா.10.50 வரை, பின்பு பரணி"
+    },
+    "lagnam" : {
+      "en" : "Magara Lagnam, Duration Na. 3 Vi. 15",
+      "ta" : "மகர லக்னம் · இருப்பு நா. 3 வி. 15"
+    },
+    "karanam" : {
+      "en" : "9 - 10.30",
+      "ta" : "9-10.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.35",
+      "ta" : "6.35"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "6.00 - 7.00",
+      "ta" : "6.00-7.00"
+    },
+    "evening" : {
+      "en" : "4.30 - 5.30",
+      "ta" : "4.30-5.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "9.30 - 10.30",
+      "ta" : "9.30-10.30"
+    },
+    "evening" : {
+      "en" : "7.30 - 8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "7.30",
+      "evening" : "9.00"
+    },
+    "gulikai" : {
+      "morning" : "1.30",
+      "evening" : "3.00"
+    },
+    "emagandam" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    }
+  },
+  "soolam" : {
+    "en" : "Kizhakku (East)",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir (Curd)",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Magasiru, Thiruvathirai",
+    "ta" : "சந்திராஷ்டமம்"
+  }
+}

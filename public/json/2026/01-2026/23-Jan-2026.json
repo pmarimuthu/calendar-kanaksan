@@ -1,0 +1,94 @@
+{
+  "date" : "23-01-2026",
+  "day" : {
+    "en" : "Friday",
+    "ta" : "வெள்ளி"
+  },
+  "tamil_month" : {
+    "en" : "Thai",
+    "ta" : "தை"
+  },
+  "tamil_date" : "9",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "3",
+    "ta" : "3"
+  },
+  "paksha" : {
+    "en" : "Waxing (Valar Pirai)",
+    "ta" : "வளர்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Panchami 45.39 (12.51) ends, then Panchami",
+      "ta" : "வளர். பஞ்சமி 45.39 (கா. 12.51)"
+    },
+    "nakshatra" : {
+      "en" : "Pooradam 18.53 (02.08) ends, then Thiruvonam 42.06",
+      "ta" : "பூராடாதி 18.53 (மா. 02.08) வரை, பின்பு உத்திராடம்"
+    },
+    "lagnam" : {
+      "en" : "Magam Lagnam · Duration Na. 3 Vi. 48",
+      "ta" : "மக லக்னம் · இருப்பு நா. 3 வி. 48"
+    },
+    "karanam" : {
+      "en" : "1.30-3",
+      "ta" : "1.30-3"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.35",
+      "ta" : "6.35"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "9.30-10.30",
+      "ta" : "9.30-10.30"
+    },
+    "evening" : {
+      "en" : "4.30-5.30",
+      "ta" : "4.30-5.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "12.30-1.30",
+      "ta" : "12.30-1.30"
+    },
+    "evening" : {
+      "en" : "6.30-7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    },
+    "gulikai" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    },
+    "emagandam" : {
+      "morning" : "03.00",
+      "evening" : "04.30"
+    }
+  },
+  "soolam" : {
+    "en" : "West",
+    "ta" : "மேற்கு"
+  },
+  "pariharam" : {
+    "en" : "Vellam",
+    "ta" : "வெல்லம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Magam, Pooram",
+    "ta" : "மகம், பூரம்"
+  }
+}

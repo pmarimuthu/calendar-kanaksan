@@ -1,0 +1,94 @@
+{
+  "date" : "9-6-2026",
+  "day" : {
+    "en" : "Tuesday",
+    "ta" : "செவ்வாய்"
+  },
+  "tamil_month" : {
+    "en" : "Vaikasi",
+    "ta" : "வைகாசி"
+  },
+  "tamil_date" : "26",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Dhul Hijja 22",
+    "ta" : "துல்ஹிஜ்ஜா 22"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksha",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Navami 39.29 (Ma. 09.40) until, then Dashami",
+      "ta" : "நவமி 39.29 (மா. 09.40) வரை, பின்பு தசமி"
+    },
+    "nakshatra" : {
+      "en" : "Uthrattadi 57.55 (Ka. 05.02) until, then Thiruvonam 22.31",
+      "ta" : "உத்திரட்டாதி 57.55 (கா. 05.02) வரை, பின்பு திருவோணம் 22.31"
+    },
+    "lagnam" : {
+      "en" : "Amirtham 57.55 above, Siddha Yogam - Vrishabha Lagnam · Iruppu Na. 0 Vi. 55",
+      "ta" : "அமிர்த 57.55 மேல் சித்த யோகம் - வட்க விஷபம் லக்னம் · இருப்பு நா. 0 வி. 55"
+    },
+    "karanam" : {
+      "en" : "7.30-9",
+      "ta" : "7.30-9"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "5.52",
+      "ta" : "5.52"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.30 - 8.30",
+      "ta" : "7.30 - 8.30"
+    },
+    "evening" : {
+      "en" : "4.30 - 5.30",
+      "ta" : "4.30 - 5.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30 - 11.30",
+      "ta" : "10.30 - 11.30"
+    },
+    "evening" : {
+      "en" : "7.30 - 8.30",
+      "ta" : "7.30 - 8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "03.00",
+      "evening" : "04.30"
+    },
+    "gulikai" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    },
+    "emagandam" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    }
+  },
+  "soolam" : {
+    "en" : "North",
+    "ta" : "வடக்கு"
+  },
+  "pariharam" : {
+    "en" : "Milk",
+    "ta" : "பால்"
+  },
+  "chandrashtamam" : {
+    "en" : "Pooram",
+    "ta" : "பூரம்"
+  }
+}

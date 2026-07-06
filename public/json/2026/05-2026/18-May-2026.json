@@ -1,0 +1,94 @@
+{
+  "date" : "18-5-2026",
+  "day" : {
+    "en" : "Monday",
+    "ta" : "திங்கள்"
+  },
+  "tamil_month" : {
+    "en" : "Vaikasi",
+    "ta" : "வைகாசி"
+  },
+  "tamil_date" : "4",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Thul Qa'dah 30",
+    "ta" : "துல்கஃதா 30"
+  },
+  "paksha" : {
+    "en" : "Valarpirai",
+    "ta" : "வளர்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Thuvithiyai 38.35 (Mar. 09.19) varai, pinbu Thirithiyai",
+      "ta" : "துவிதியை 38.35 (மா. 09.19) வரை, பின்பு திரிதியை"
+    },
+    "nakshatra" : {
+      "en" : "Rohini 21.15 (Mar. 02.23) varai, pinbu Mirugasirusham",
+      "ta" : "ரோகிணி 21.15 (மா. 02.23) வரை, பின்பு மிருகசீரிஷம்"
+    },
+    "lagnam" : {
+      "en" : "Rishabam Lagnam · Iruppu Na. 4 Vi. 18",
+      "ta" : "ரிஷபம் லக்னம் · இருப்பு நா. 4 வி. 18"
+    },
+    "karanam" : {
+      "en" : "9-10.30",
+      "ta" : "9-10.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "5.53",
+      "ta" : "5.53"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "9.30-10.30",
+      "ta" : "9.30-10.30"
+    },
+    "evening" : {
+      "en" : "4.30-5.30",
+      "ta" : "4.30-5.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "1.30-2.30",
+      "ta" : "1.30-2.30"
+    },
+    "evening" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    },
+    "gulikai" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "emagandam" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    }
+  },
+  "soolam" : {
+    "en" : "Kizhakku (East)",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Visagam, Anusham",
+    "ta" : "விசாகம், அனுஷம்"
+  }
+}

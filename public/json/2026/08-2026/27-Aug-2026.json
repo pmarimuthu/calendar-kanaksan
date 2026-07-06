@@ -1,0 +1,94 @@
+{
+  "date" : "27-08-2026",
+  "day" : {
+    "en" : "Thursday",
+    "ta" : "வியாழன்"
+  },
+  "tamil_month" : {
+    "en" : "Aavani",
+    "ta" : "ஆவணி"
+  },
+  "tamil_date" : "10",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Rabi al-Awwal 13",
+    "ta" : "ரபிஉல் அவ்வல் 13"
+  },
+  "paksha" : {
+    "en" : "Pournami",
+    "ta" : "பௌர்ணமி"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Chaturthasai until 09.33 (ka. 09.53), then Pournami",
+      "ta" : "சதுர்த்தசி 09.33 (கா. 09.53) வரை, பின்பு பௌர்ணமி"
+    },
+    "nakshatra" : {
+      "en" : "Avittam 54.11 (ka. 03.44), then Thiruvonam ka. 02.20 varai, pinbu Avittam",
+      "ta" : "அவிட்டம் 54.11 (கா. 03.44) வரை, பின்பு திருவோணம் கா. 02.20 வரை, பின்பு அவிட்டம்"
+    },
+    "lagnam" : {
+      "en" : "Simma Lagnam, duration Na. 3 Vi. 44",
+      "ta" : "சிம்ம லக்னம் இருப்பு நா. 3 வி. 44"
+    },
+    "karanam" : {
+      "en" : "3 - 4.30",
+      "ta" : "3-4.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.04",
+      "ta" : "6.04"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "10.45 - 11.45",
+      "ta" : "10.45-11.45"
+    },
+    "evening" : {
+      "en" : "12.15 - 1.15",
+      "ta" : "12.15-1.15"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "",
+      "ta" : ""
+    },
+    "evening" : {
+      "en" : "6.30 - 7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "gulikai" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    },
+    "emagandam" : {
+      "morning" : "06.00",
+      "evening" : "07.30"
+    }
+  },
+  "soolam" : {
+    "en" : "South",
+    "ta" : "தெற்கு"
+  },
+  "pariharam" : {
+    "en" : "Thailam",
+    "ta" : "தைலம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Pousam",
+    "ta" : "பூசம்"
+  }
+}

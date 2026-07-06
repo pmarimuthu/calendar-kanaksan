@@ -1,0 +1,94 @@
+{
+  "date" : "07-12-2026",
+  "day" : {
+    "en" : "Monday",
+    "ta" : "திங்கள்"
+  },
+  "tamil_month" : {
+    "en" : "Karthigai",
+    "ta" : "கார்த்திகை"
+  },
+  "tamil_date" : "21",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Jamadiul Aakhir 27",
+    "ta" : "ஜமாதுல் ஆகிர் 27"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Chaturdashi 56.55 until (Ka. 05.03), then Marana 27.41",
+      "ta" : "சதுர்த்தசி 56.55 (கா. 05.03) வரை, மரண 27.41"
+    },
+    "nakshatra" : {
+      "en" : "Visakam 27.41 (Ma. 05.21), then Jyeshta 38.32",
+      "ta" : "விசாகம் 27.41 (மா. 05.21), பின்பு தியாழ் 38.32"
+    },
+    "lagnam" : {
+      "en" : "Viruchiga Lagnam · Iruppu Na. 1 Vi. 38",
+      "ta" : "விருச்சிக லக்னம் · இருப்பு நா. 1 வி. 38"
+    },
+    "karanam" : {
+      "en" : "9-10.30",
+      "ta" : "9-10.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.17",
+      "ta" : "6.17"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "6.15-7.15",
+      "ta" : "6.15-7.15"
+    },
+    "evening" : {
+      "en" : "4.45-5.45",
+      "ta" : "4.45-5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "9.15-10.15",
+      "ta" : "9.15-10.15"
+    },
+    "evening" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    },
+    "gulikai" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "emagandam" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    }
+  },
+  "soolam" : {
+    "en" : "East",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Aswathi, Bharani",
+    "ta" : "அசுபதி, பரணி"
+  }
+}

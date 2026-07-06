@@ -1,0 +1,94 @@
+{
+  "date" : "08-03-2026",
+  "day" : {
+    "en" : "Sunday",
+    "ta" : "ஞாயிறு"
+  },
+  "tamil_month" : {
+    "en" : "Masi",
+    "ta" : "மாசி"
+  },
+  "tamil_date" : "24",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "Ramalan 18",
+    "ta" : "ரமலான் 18"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Panchami until 10.01, then Shashti",
+      "ta" : "பஞ்சமி மா.10.01 வரை, பின்பு ஷஷ்டி"
+    },
+    "nakshatra" : {
+      "en" : "Swathi until 02.19, then Visakam",
+      "ta" : "சுவாதி மா.02.19 வரை, பின்பு விசாகம்"
+    },
+    "lagnam" : {
+      "en" : "Kumba Lagnam · Duration Na. 1 Vi. 06",
+      "ta" : "கும்ப லக்னம் · இருப்பு நா. 1 வி. 06"
+    },
+    "karanam" : {
+      "en" : "10.30 - 12",
+      "ta" : "10.30-12"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.26",
+      "ta" : "6.26"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.30 - 8.30",
+      "ta" : "7.30-8.30"
+    },
+    "evening" : {
+      "en" : "3.30 - 4.30",
+      "ta" : "3.30-4.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30 - 11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "1.30 - 2.30",
+      "ta" : "1.30-2.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "04.30",
+      "evening" : "04.30"
+    },
+    "gulikai" : {
+      "morning" : "03.00",
+      "evening" : "06.00"
+    },
+    "emagandam" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    }
+  },
+  "soolam" : {
+    "en" : "West",
+    "ta" : "மேற்கு"
+  },
+  "pariharam" : {
+    "en" : "Vellam",
+    "ta" : "வெல்லம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Uthrattathi, Revathi",
+    "ta" : "உத்திரட்டாதி, ரேவதி"
+  }
+}

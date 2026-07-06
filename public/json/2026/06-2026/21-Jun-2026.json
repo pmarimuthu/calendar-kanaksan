@@ -1,0 +1,34 @@
+{
+  "date": "21-06-2026",
+  "day": { "en": "Sunday", "ta": "ஞாயிறு" },
+  "tamil_month": { "en": "Aani", "ta": "ஆனி" },
+  "tamil_date": "7",
+  "tamil_year": { "en": "Parabava", "ta": "பராபவ" },
+  "islamic_date": { "en": "Muharram 5", "ta": "முஹர்ரம் 5" },
+  "paksha": { "en": "Valarpirai", "ta": "வளர்பிரை" },
+  "panchangam": {
+    "tithi":     { "en": "Saptami 37.59 (Mar. 09.06) varai, pinbu Ashtami", "ta": "சப்தமி 37.59 (மா. 09.06) வரை, பின்பு அஷ்டமி" },
+    "nakshatra": { "en": "Pooram 23.24 (Mar. 03.16) varai, pinbu Uthiram", "ta": "பூரம் 23.24 (மா. 03.16) வரை, பின்பு உத்திரம்" },
+    "lagnam":    { "en": "Mithunam lagnam · Iruppu Na. 4 Vi. 16", "ta": "மிதுன லக்னம் · இருப்பு நா. 4 வி. 16" },
+    "karanam":   { "en": "10.30-12 Suriya Udayam", "ta": "10.30-12 சூரிய உதயம்" }
+  },
+  "timings": {
+    "sunrise": { "en": "5.54", "ta": "5.54" }
+  },
+  "auspicious_times": {
+    "morning": { "en": "7.30-8.30", "ta": "7.30-8.30" },
+    "evening": { "en": "3.30-4.30", "ta": "3.30-4.30" }
+  },
+  "gowri_nalla_neram": {
+    "morning": { "en": "10.30-11.30", "ta": "10.30-11.30" },
+    "evening": { "en": "1.30-2.30", "ta": "1.30-2.30" }
+  },
+  "inauspicious_times": {
+    "rahu":      { "morning": "04.30", "evening": "04.30" },
+    "gulikai":   { "morning": "03.00", "evening": "01.30" },
+    "emagandam": { "morning": "12.00", "evening": "" }
+  },
+  "soolam":    { "en": "West", "ta": "மேற்கு" },
+  "pariharam": { "en": "Vellam", "ta": "வெல்லம்" },
+  "chandrashtamam": { "en": "Thiruvonam, Avittam", "ta": "திருவோணம், அவிட்டம்" }
+}

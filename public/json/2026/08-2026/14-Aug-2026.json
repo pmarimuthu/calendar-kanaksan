@@ -1,0 +1,94 @@
+{
+  "date" : "29-08-2025",
+  "day" : {
+    "en" : "Friday",
+    "ta" : "வெள்ளி"
+  },
+  "tamil_month" : {
+    "en" : "Aadi",
+    "ta" : "ஆடி"
+  },
+  "tamil_date" : "14",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Safar 30",
+    "ta" : "சஃபர் 30"
+  },
+  "paksha" : {
+    "en" : "Valarpirai",
+    "ta" : "வளர்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Thuvithiyai 38.20 (Mar. 09.24) varai, pinbu Magam 03.13 (Kaa. 07.21) varai, pinbu Thrivithiyai",
+      "ta" : "துவிதியை 38.20 (மா. 09.24) வரை, பின்பு மகம் 03.13 (கா. 07.21) வரை, பின்பு திரிதியை"
+    },
+    "nakshatra" : {
+      "en" : "Magam 03.13 (Kaa. 07.21) varai, pinbu Pooram",
+      "ta" : "மகம் கா.07.21 வரை, பின்பு பூரம்"
+    },
+    "lagnam" : {
+      "en" : "Kadaka Lagnam · Iruppu Naa. 0 Vi. 41",
+      "ta" : "கடக லக்னம் · இருப்பு நா. 0 வி. 41"
+    },
+    "karanam" : {
+      "en" : "1.30-3",
+      "ta" : "1.30-3"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.04",
+      "ta" : "6.04"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "9.15-10.15",
+      "ta" : "9.15-10.15"
+    },
+    "evening" : {
+      "en" : "5.00-6.00",
+      "ta" : "5.00-6.00"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "12.15-1.15",
+      "ta" : "12.15-1.15"
+    },
+    "evening" : {
+      "en" : "6.30-7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "10.30",
+      "evening" : "09.00"
+    },
+    "gulikai" : {
+      "morning" : "07.30",
+      "evening" : "04.30"
+    },
+    "emagandam" : {
+      "morning" : "03.00",
+      "evening" : "12.00"
+    }
+  },
+  "soolam" : {
+    "en" : "West",
+    "ta" : "மேற்கு"
+  },
+  "pariharam" : {
+    "en" : "Vellam",
+    "ta" : "வெல்லம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Avittam",
+    "ta" : "அவிட்டம்"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "date": "25-06-2026",
+  "day": { "en": "Thursday", "ta": "வியாழன்" },
+  "tamil_month": { "en": "Aani", "ta": "ஆனி" },
+  "tamil_date": "11",
+  "tamil_year": { "en": "Parabava", "ta": "பராபவ" },
+  "islamic_date": { "en": "Muharram 9", "ta": "முஹர்ரம் 9" },
+  "paksha": { "en": "Shukla Paksha", "ta": "வளர்பிறை" },
+  "panchangam": {
+    "tithi":     { "en": "Ekadasi 42.40 (10.59) ends, then Dwadasi", "ta": "ஏகாதசி 42.40 (மா. 10.59) வரை, பின்பு துவாதசி" },
+    "nakshatra": { "en": "Swathi 34.05 (07.33) ends, then Vishakam", "ta": "சுவாதி 34.05 (மா. 07.33) வரை, பின்பு விசாகம்" },
+    "lagnam":    { "en": "Mithuna lagnam, duration Na. 3 Vi. 37", "ta": "மிதுன லக்னம் · இருப்பு நா. 3 வி. 37" },
+    "karanam":   { "en": "3-4.30", "ta": "3-4.30" }
+  },
+  "timings": {
+    "sunrise": { "en": "5.55", "ta": "5.55" }
+  },
+  "auspicious_times": {
+    "morning": { "en": "10.30-11.30", "ta": "10.30-11.30" },
+    "evening": { "en": "12.30-1.30", "ta": "12.30-1.30" }
+  },
+  "gowri_nalla_neram": {
+    "morning": { "en": "------------", "ta": "------------" },
+    "evening": { "en": "6.30-7.30", "ta": "6.30-7.30" }
+  },
+  "inauspicious_times": {
+    "rahu":      { "morning": "01.30", "evening": "03.00" },
+    "gulikai":   { "morning": "09.00", "evening": "10.30" },
+    "emagandam": { "morning": "06.00", "evening": "07.30" }
+  },
+  "soolam":    { "en": "South", "ta": "தெற்கு" },
+  "pariharam": { "en": "Thailam", "ta": "தைலம்" },
+  "chandrashtamam": { "en": "Uthirattadhi, Revathi", "ta": "உத்திரட்டாதி, ரேவதி" }
+}

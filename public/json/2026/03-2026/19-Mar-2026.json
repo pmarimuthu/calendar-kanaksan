@@ -1,0 +1,94 @@
+{
+  "date" : "19-03-2026",
+  "day" : {
+    "en" : "Thursday",
+    "ta" : "வியாழன்"
+  },
+  "tamil_month" : {
+    "en" : "Panguni",
+    "ta" : "பங்குனி"
+  },
+  "tamil_date" : "5",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "Ramalan 29",
+    "ta" : "ரமலான் 29"
+  },
+  "paksha" : {
+    "en" : "Valarpirai",
+    "ta" : "வளர்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Pratamai 56.39 (04.59) Pirathamai",
+      "ta" : "பிரதமை 56.39 (கா. 04.59)"
+    },
+    "nakshatra" : {
+      "en" : "Uthirattadhi 57.11 (05.11)",
+      "ta" : "உத்திரட்டாதி 57.11 (கா. 05.11)"
+    },
+    "lagnam" : {
+      "en" : "Meena Lagnam - Iruppu Na. 3 Vi. 41",
+      "ta" : "மீன லக்கணம் இருப்பு நா. 3 வி. 41"
+    },
+    "karanam" : {
+      "en" : "3-4.30",
+      "ta" : "3-4.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.19",
+      "ta" : "6.19"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "10.30-11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "6.30-7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "------------",
+      "ta" : "------------"
+    },
+    "evening" : {
+      "en" : "03.00",
+      "ta" : "03.00"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "01.30",
+      "evening" : "10.30"
+    },
+    "gulikai" : {
+      "morning" : "09.00",
+      "evening" : "07.30"
+    },
+    "emagandam" : {
+      "morning" : "06.00",
+      "evening" : ""
+    }
+  },
+  "soolam" : {
+    "en" : "South",
+    "ta" : "தெற்கு"
+  },
+  "pariharam" : {
+    "en" : "Thailam",
+    "ta" : "தைலம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Pooram",
+    "ta" : "பூரம்"
+  }
+}

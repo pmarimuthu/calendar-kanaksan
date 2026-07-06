@@ -1,0 +1,94 @@
+{
+  "date" : "7-10-2026",
+  "day" : {
+    "en" : "Wednesday",
+    "ta" : "புதன்"
+  },
+  "tamil_month" : {
+    "en" : "Purattasi",
+    "ta" : "புரட்டாசி"
+  },
+  "tamil_date" : "20",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Rabi ul-Akhir 25",
+    "ta" : "ரபிஉல்ஆகிர் 25"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Thuvadasi 44.40 (11.54) varai, pinbu Thiryodasi - Magam 42.25 (11.10) varai, pinbu Puram",
+      "ta" : "துவாதசி 44.40 (மா. 11.54) வரை, பின்பு திரயோதசி - மகம் 42.25 (மா. 11.10) வரை, பின்பு பூரம்"
+    },
+    "nakshatra" : {
+      "en" : "Magam 42.25 (Ma. 11.10) varai, pinbu Puram",
+      "ta" : "மகம் 42.25 (மா. 11.10) வரை, பின்பு பூரம்"
+    },
+    "lagnam" : {
+      "en" : "Kanni lagnam - Iruppu Na. 1 Vi. 50",
+      "ta" : "கன்னியா லக்னம் இருப்பு நா. 1 வி. 50"
+    },
+    "karanam" : {
+      "en" : "6-7.30",
+      "ta" : "6-7.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.02",
+      "ta" : "6.02"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "9.15-10.15",
+      "ta" : "9.15-10.15"
+    },
+    "evening" : {
+      "en" : "4.45-5.45",
+      "ta" : "4.45-5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "1.45-2.45",
+      "ta" : "1.45-2.45"
+    },
+    "evening" : {
+      "en" : "6.30-7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "12.00",
+      "evening" : "12.00"
+    },
+    "gulikai" : {
+      "morning" : "10.30",
+      "evening" : "01.30"
+    },
+    "emagandam" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    }
+  },
+  "soolam" : {
+    "en" : "Vadaku (North)",
+    "ta" : "வடக்கு"
+  },
+  "pariharam" : {
+    "en" : "Paal",
+    "ta" : "பால்"
+  },
+  "chandrashtamam" : {
+    "en" : "Uthiradam, Thiruvonam",
+    "ta" : "உத்திராடம், திருவோணம்"
+  }
+}

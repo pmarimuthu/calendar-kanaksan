@@ -1,0 +1,94 @@
+{
+  "date" : "25-01-2026",
+  "day" : {
+    "en" : "Sunday",
+    "ta" : "ஞாயிறு"
+  },
+  "tamil_month" : {
+    "en" : "Thai",
+    "ta" : "தை"
+  },
+  "tamil_date" : "11",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விஸ்வாவசு"
+  },
+  "islamic_date" : {
+    "en" : "5",
+    "ta" : "5"
+  },
+  "paksha" : {
+    "en" : "Valar Pirai",
+    "ta" : "வளர்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Saptami 36.49 (Mar. 09.19) until, then Ashtami",
+      "ta" : "வளர். சப்தமி 36.49 (மா. 09.19) வரை, பின்பு அஷ்டமி"
+    },
+    "nakshatra" : {
+      "en" : "Revathi 14.01 (Mar. 12.11) until, then Ashwathi",
+      "ta" : "ரேவதி 14.01 (மா. 12.11) வரை, பின்பு அஸ்வதி"
+    },
+    "lagnam" : {
+      "en" : "Makara Lagnam · Duration Na. 3 Vi. 26",
+      "ta" : "மகர லக்னம் · இருப்பு நா. 3 வி. 26"
+    },
+    "karanam" : {
+      "en" : "10.30-12",
+      "ta" : "10.30-12"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.35",
+      "ta" : "6.35"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    },
+    "evening" : {
+      "en" : "3.30-4.30",
+      "ta" : "3.30-4.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30-11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "1.30-2.30",
+      "ta" : "1.30-2.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "04.30",
+      "evening" : "04.30"
+    },
+    "gulikai" : {
+      "morning" : "03.00",
+      "evening" : "06.00"
+    },
+    "emagandam" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    }
+  },
+  "soolam" : {
+    "en" : "West",
+    "ta" : "மேற்கு"
+  },
+  "pariharam" : {
+    "en" : "Vellam",
+    "ta" : "வெல்லம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Uthiram, Hastham",
+    "ta" : "உத்திரம், ஹஸ்தம்"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "date" : "26-12-2026",
+  "day" : {
+    "en" : "Saturday",
+    "ta" : "சனி"
+  },
+  "tamil_month" : {
+    "en" : "Margazhi",
+    "ta" : "மார்கழி"
+  },
+  "tamil_date" : "11",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Rajab 16",
+    "ta" : "ரஜப் 16"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Thithi 47.07 (Ka. 01.18) - then next tithi",
+      "ta" : "திரிதியை 47.07 (கா. 01.18)"
+    },
+    "nakshatra" : {
+      "en" : "Pusam 47.26 (Ka. 01.25), then Thiyas 10.01",
+      "ta" : "பூசம் 47.26 (கா. 01.25) தியாஜ் 10.01"
+    },
+    "lagnam" : {
+      "en" : "Irruppu Na. 3 Vi. 40",
+      "ta" : "இருப்பு நா. 3 வி. 40"
+    },
+    "karanam" : {
+      "en" : "12-1.30",
+      "ta" : "12-1.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.27",
+      "ta" : "6.27"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.45 - 8.45",
+      "ta" : "7.45 - 8.45"
+    },
+    "evening" : {
+      "en" : "4.45 - 5.45",
+      "ta" : "4.45 - 5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "1.45 - 2.45",
+      "ta" : "1.45 - 2.45"
+    },
+    "evening" : {
+      "en" : "9.30 - 10.30",
+      "ta" : "9.30 - 10.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    },
+    "gulikai" : {
+      "morning" : "06.00",
+      "evening" : "07.30"
+    },
+    "emagandam" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    }
+  },
+  "soolam" : {
+    "en" : "East",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Moolam",
+    "ta" : "மூலம்"
+  }
+}

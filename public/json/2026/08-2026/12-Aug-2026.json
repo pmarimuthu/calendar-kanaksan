@@ -1,0 +1,94 @@
+{
+  "date" : "27-08-2025",
+  "day" : {
+    "en" : "Wednesday",
+    "ta" : "புதன்"
+  },
+  "tamil_month" : {
+    "en" : "Aadi",
+    "ta" : "ஆடி"
+  },
+  "tamil_date" : "27",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Safar 28",
+    "ta" : "சம்பர் 28"
+  },
+  "paksha" : {
+    "en" : "Amavasai",
+    "ta" : "அமாவாசை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Amavasai 45.29 (12.16)",
+      "ta" : "அமாவாசை 45.29 (கா. 12.16)"
+    },
+    "nakshatra" : {
+      "en" : "Poosom 07.44 (09.10), then Thiruvonam 38.20",
+      "ta" : "பூசம் 07.44 (கா. 09.10), பின்பு திருவோணம் 38.20"
+    },
+    "lagnam" : {
+      "en" : "Kadaka Lagnam · Iruppu Na. 1 Vi. 02",
+      "ta" : "கடக லக்னம் · இருப்பு நா. 1 வி. 02"
+    },
+    "karanam" : {
+      "en" : "6 to 7.30",
+      "ta" : "6-7.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.04",
+      "ta" : "6.04"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "9.15 - 10.15",
+      "ta" : "9.15 - 10.15"
+    },
+    "evening" : {
+      "en" : "4.45 - 5.45",
+      "ta" : "4.45 - 5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.45 - 11.45",
+      "ta" : "10.45 - 11.45"
+    },
+    "evening" : {
+      "en" : "6.30 - 7.30",
+      "ta" : "6.30 - 7.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    },
+    "gulikai" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    },
+    "emagandam" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    }
+  },
+  "soolam" : {
+    "en" : "North",
+    "ta" : "வடக்கு"
+  },
+  "pariharam" : {
+    "en" : "Paal",
+    "ta" : "பால்"
+  },
+  "chandrashtamam" : {
+    "en" : "Uthiradam",
+    "ta" : "உத்திராடம்"
+  }
+}

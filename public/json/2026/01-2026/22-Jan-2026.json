@@ -1,0 +1,94 @@
+{
+  "date" : "22-01-2026",
+  "day" : {
+    "en" : "Thursday",
+    "ta" : "வியாழன்"
+  },
+  "tamil_month" : {
+    "en" : "Thai",
+    "ta" : "தை"
+  },
+  "tamil_date" : "8",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "2",
+    "ta" : "2"
+  },
+  "paksha" : {
+    "en" : "Valarpirai",
+    "ta" : "வளர்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Chathurthi 48.52 (Ka. 02.08) until, then Chathurti Viratham. Mukunda Chathurthi.",
+      "ta" : "சதுர்த்தி 48.52 (கா. 02.08) சதயம் 19.56 (மா. 02.33) தியாழு 35.41 மரண 19.56 மேல் சித்த யோகம். சதுர்த்தி விரதம். முகுந்த சதுர்த்தி."
+    },
+    "nakshatra" : {
+      "en" : "Sathayam 19.56 (Ma. 02.33) until, then Poorattadhi",
+      "ta" : "சதயம் 19.56 (மா. 02.33) வரை, பின்பு பூராட்டாதி"
+    },
+    "lagnam" : {
+      "en" : "Makara Lagnam · Iruppu Na. 3 Vi. 59",
+      "ta" : "மகர லக்னம் · இருப்பு நா. 3 வி. 59"
+    },
+    "karanam" : {
+      "en" : "3-4.30",
+      "ta" : "3-4.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.35",
+      "ta" : "6.35"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "10.30-11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "6.30-7.30",
+      "ta" : "6.30-7.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "------------",
+      "ta" : "------------"
+    },
+    "evening" : {
+      "en" : "03.00",
+      "ta" : "03.00"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "01.30",
+      "evening" : "10.30"
+    },
+    "gulikai" : {
+      "morning" : "09.00",
+      "evening" : "07.30"
+    },
+    "emagandam" : {
+      "morning" : "06.00",
+      "evening" : "07.30"
+    }
+  },
+  "soolam" : {
+    "en" : "South",
+    "ta" : "தெற்கு"
+  },
+  "pariharam" : {
+    "en" : "Thailam",
+    "ta" : "தைலம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Ayilyam, Magam",
+    "ta" : "ஆயிலயம், மகம்"
+  }
+}

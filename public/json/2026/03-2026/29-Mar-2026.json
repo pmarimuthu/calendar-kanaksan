@@ -1,0 +1,94 @@
+{
+  "date" : "29-03-2026",
+  "day" : {
+    "en" : "Sunday",
+    "ta" : "ஞாயிறு"
+  },
+  "tamil_month" : {
+    "en" : "Panguni",
+    "ta" : "பங்குனி"
+  },
+  "tamil_date" : "15",
+  "tamil_year" : {
+    "en" : "Visvavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "Shawwal 9",
+    "ta" : "ஷவ்வால் 9"
+  },
+  "paksha" : {
+    "en" : "Valar Pirai",
+    "ta" : "வளர்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Ekadasi 08.16 (Ka. 09.32) until, then Dwadasi 24.35 (Ma. 04.04)",
+      "ta" : "ஏகாதசி 08.16 (கா. 09.32) ஆயிலியம் 24.35 (மா. 04.04) சேஷம் 01.25"
+    },
+    "nakshatra" : {
+      "en" : "Ayilyam 24.35 (Ma. 04.04), Sesham 01.25",
+      "ta" : "தியாழ் 54.16 சித்த 24.35 மேல் மரண. சர்வ ஏகாதசி. கரிநாள்."
+    },
+    "lagnam" : {
+      "en" : "Mela Lagnam, Iruppu Na. 2 Vi. 16",
+      "ta" : "மேல லக்னம் இருப்பு நா. 2 வி. 16"
+    },
+    "karanam" : {
+      "en" : "10.30-12",
+      "ta" : "10.30-12"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.14",
+      "ta" : "6.14"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "6.00-7.00",
+      "ta" : "6.00-7.00"
+    },
+    "evening" : {
+      "en" : "3.30-4.30",
+      "ta" : "3.30-4.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30-11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "1.30-2.30",
+      "ta" : "1.30-2.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "04.30",
+      "evening" : "04.30"
+    },
+    "gulikai" : {
+      "morning" : "03.00",
+      "evening" : "06.00"
+    },
+    "emagandam" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    }
+  },
+  "soolam" : {
+    "en" : "West",
+    "ta" : "மேற்கு"
+  },
+  "pariharam" : {
+    "en" : "Vellam",
+    "ta" : "வெல்லம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Pooradam, Uthiradam",
+    "ta" : "பூராடம், உத்திராடம்"
+  }
+}

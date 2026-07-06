@@ -1,0 +1,94 @@
+{
+  "date" : "17-05-2020",
+  "day" : {
+    "en" : "Sunday",
+    "ta" : "ஞாயிறு"
+  },
+  "tamil_month" : {
+    "en" : "Vaigasi",
+    "ta" : "வைகாசி"
+  },
+  "tamil_date" : "17",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Dhul Hijja 13",
+    "ta" : "துல்ஹிஜ்ஜா 13"
+  },
+  "paksha" : {
+    "en" : "Shukla Paksha",
+    "ta" : "சுக்ல பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Pournami 22.12 (Mar. 02.45) until, then Prathami - Anusham 27.16 (Mar. 04.46) until, then Kettai",
+      "ta" : "பௌர்ணமி 22.12 (மா. 02.45) வரை, பின்பு பிரதமை - அனுஷம் 27.16 (மா. 04.46) வரை, பின்பு கேட்டை"
+    },
+    "nakshatra" : {
+      "en" : "Anusham 27.16 (Mar. 04.46) until, then Kettai",
+      "ta" : "அனுஷம் 27.16 (மா. 04.46) வரை, பின்பு கேட்டை"
+    },
+    "lagnam" : {
+      "en" : "Metrku Lagnam · Iruppu Na. 2 Vi. 18",
+      "ta" : "மேற்கு லக்னம் · இருப்பு நா. 2 வி. 18"
+    },
+    "karanam" : {
+      "en" : "10.30 - 12",
+      "ta" : "10.30-12"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "5.52",
+      "ta" : "5.52"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.30 - 8.30",
+      "ta" : "7.30-8.30"
+    },
+    "evening" : {
+      "en" : "3.30 - 4.30",
+      "ta" : "3.30-4.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30 - 11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "1.30 - 2.30",
+      "ta" : "1.30-2.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "04.30",
+      "evening" : "04.30"
+    },
+    "gulikai" : {
+      "morning" : "03.00",
+      "evening" : "04.30"
+    },
+    "emagandam" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    }
+  },
+  "soolam" : {
+    "en" : "West",
+    "ta" : "மேற்கு"
+  },
+  "pariharam" : {
+    "en" : "Vellam",
+    "ta" : "வெல்லம்"
+  },
+  "chandrashtamam" : {
+    "en" : "Asupathi, Bharani",
+    "ta" : "அசுபதி, பரணி"
+  }
+}

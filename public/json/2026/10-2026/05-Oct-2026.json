@@ -1,0 +1,94 @@
+{
+  "date" : "05-10-2026",
+  "day" : {
+    "en" : "Monday",
+    "ta" : "திங்கள்"
+  },
+  "tamil_month" : {
+    "en" : "Purattasi",
+    "ta" : "புரட்டாசி"
+  },
+  "tamil_date" : "18",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Rabi ul-Aakhir 23",
+    "ta" : "ரபிஉல்ஆகிர் 23"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksha",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Dashami 53.20 (03.22) until, then Ekadashi",
+      "ta" : "தேய். தசமி 53.20 (கா. 03.22) வரை, பின்பு ஏகாதசி"
+    },
+    "nakshatra" : {
+      "en" : "Poosam 47.38 (01.05) until, then Thiruvonam",
+      "ta" : "பூசம் 47.38 (கா. 01.05) வரை, பின்பு திருவோணம்"
+    },
+    "lagnam" : {
+      "en" : "Kanni Lagnam · Iruppu Na. 2 Vi. 10",
+      "ta" : "கன்னியா லக்னம் · இருப்பு நா. 2 வி. 10"
+    },
+    "karanam" : {
+      "en" : "9-10.30",
+      "ta" : "9-10.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.02",
+      "ta" : "6.02"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "6.00-7.00",
+      "ta" : "6.00-7.00"
+    },
+    "evening" : {
+      "en" : "4.45-5.45",
+      "ta" : "4.45-5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "9.00-10.00",
+      "ta" : "9.00-10.00"
+    },
+    "evening" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    },
+    "gulikai" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "emagandam" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    }
+  },
+  "soolam" : {
+    "en" : "East",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Moolam, Pooradam",
+    "ta" : "மூலம், பூராடம்"
+  }
+}

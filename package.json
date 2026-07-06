@@ -1,0 +1,66 @@
+{
+  "name": "@kanaksan/tamil-calendar",
+  "version": "0.1.0",
+  "description": "React component for rendering the kanaksan.com Tamil daily panchangam calendar sheet, backed by a REST API, with dark/light mode and a pluggable theme system.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Mars <pmarimuthu@gmail.com>",
+  "keywords": [
+    "react",
+    "tamil-calendar",
+    "panchangam",
+    "kanaksan"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/tamil-calendar.cjs",
+  "module": "./dist/tamil-calendar.js",
+  "types": "./dist/src/index.d.ts",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/tamil-calendar.js",
+      "require": "./dist/tamil-calendar.cjs"
+    },
+    "./style.css": "./dist/tamil-calendar.css",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit -p tsconfig.json && vite build",
+    "build:site": "tsc --noEmit -p tsconfig.json && vite build --config vite.site.config.ts",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.2.0",
+    "@mui/material": "^9.2.0",
+    "@mui/x-date-pickers": "^9.8.0",
+    "dayjs": "^1.11.21",
+    "i18next": "^26.3.1",
+    "react-i18next": "^17.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16",
+    "vite-plugin-dts": "^5.0.2"
+  }
+}

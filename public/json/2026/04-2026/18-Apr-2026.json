@@ -1,0 +1,94 @@
+{
+  "date" : "18-4-2026",
+  "day" : {
+    "en" : "Saturday",
+    "ta" : "சனி"
+  },
+  "tamil_month" : {
+    "en" : "Chithirai",
+    "ta" : "சித்திரை"
+  },
+  "tamil_date" : "5",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Shawwal 29",
+    "ta" : "ஷெவ்வால் 29"
+  },
+  "paksha" : {
+    "en" : "Valar Pirai",
+    "ta" : "வளர்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Pratamai 24.17 (Mar. 03.45) varai, pinbu Dvitiyai",
+      "ta" : "பிரதமை 24.17 (மா. 03.45) வரை, பின்பு துவிதியை"
+    },
+    "nakshatra" : {
+      "en" : "Ashubathi 12.04 (Kaa. 10.52), Thiyaaju 02.37, 34.40",
+      "ta" : "அசுபதி 12.04 (கா. 10.52) தியாஜு 02.37, 34.40"
+    },
+    "lagnam" : {
+      "en" : "Mela Laknam · Iruppu Naa. 3 Vi. 42",
+      "ta" : "மேல லக்னம் · இருப்பு நா. 3 வி. 42"
+    },
+    "karanam" : {
+      "en" : "12.00 - 1.30",
+      "ta" : "12.00 - 1.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.02",
+      "ta" : "6.02"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "10.30 - 11.30",
+      "ta" : "10.30 - 11.30"
+    },
+    "evening" : {
+      "en" : "4.30 - 5.30",
+      "ta" : "4.30 - 5.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "12.30 - 1.30",
+      "ta" : "12.30 - 1.30"
+    },
+    "evening" : {
+      "en" : "9.30 - 10.30",
+      "ta" : "9.30 - 10.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    },
+    "gulikai" : {
+      "morning" : "06.00",
+      "evening" : "07.30"
+    },
+    "emagandam" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    }
+  },
+  "soolam" : {
+    "en" : "Kizhakku",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Hastham, Chithirai",
+    "ta" : "ஹஸ்தம், சித்திரை"
+  }
+}

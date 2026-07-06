@@ -1,0 +1,94 @@
+{
+  "date" : "16-05-2026",
+  "day" : {
+    "en" : "Saturday",
+    "ta" : "சனி"
+  },
+  "tamil_month" : {
+    "en" : "Vaikasi",
+    "ta" : "வைகாசி"
+  },
+  "tamil_date" : "2",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Amavasai 136/229",
+    "ta" : "அமாவாசை 136/229"
+  },
+  "paksha" : {
+    "en" : "Amavasai",
+    "ta" : "அமாவாசை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Amavasai 50.38 (Ka. 02.09) Bharani 29.11 (Ma. 05.34)",
+      "ta" : "அமாவாசை 50.38 (கா. 02.09) பரணி 29.11 (மா. 05.34)"
+    },
+    "nakshatra" : {
+      "en" : "Thiyazh 57.18 Siddha 29.11 Mel Amirtha Yogam. Sarva Amavasai. Karthigai Viratham.",
+      "ta" : "தியாழ் 57.18 சித்த 29.11 மேல் அமிர்த யோகம். சர்வ அமாவாசை. கார்த்திகை விரதம்."
+    },
+    "lagnam" : {
+      "en" : "Rishaba Lagnam · Iruppu Na. 4 Vi. 36",
+      "ta" : "ரிஷப லக்னம் · இருப்பு நா. 4 வி. 36"
+    },
+    "karanam" : {
+      "en" : "12-1.30",
+      "ta" : "12-1.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "5.54",
+      "ta" : "5.54"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    },
+    "evening" : {
+      "en" : "4.30-5.30",
+      "ta" : "4.30-5.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30-11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "9.30-10.30",
+      "ta" : "9.30-10.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "09.00",
+      "evening" : "07.30"
+    },
+    "gulikai" : {
+      "morning" : "06.00",
+      "evening" : "03.00"
+    },
+    "emagandam" : {
+      "morning" : "01.30",
+      "evening" : "10.30"
+    }
+  },
+  "soolam" : {
+    "en" : "East",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Chithirai, Swathi",
+    "ta" : "சித்திரை, சுவாதி"
+  }
+}

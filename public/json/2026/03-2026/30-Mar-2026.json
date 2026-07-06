@@ -1,0 +1,94 @@
+{
+  "date" : "30-3-2026",
+  "day" : {
+    "en" : "Monday",
+    "ta" : "திங்கள்"
+  },
+  "tamil_month" : {
+    "en" : "Panguni",
+    "ta" : "பங்குனி"
+  },
+  "tamil_date" : "16",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "Shawwal 10",
+    "ta" : "ஷவ்வால் 10"
+  },
+  "paksha" : {
+    "en" : "Valarpirai",
+    "ta" : "வளர்பிறை"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Thuvadasi 05.30 (Kaa. 08.26) then, Magam 23.53 (Maa. 03.47) Thiyaju 44.04, Maranam 23.53 Mel Siddha Yogam. Pirathosham. Vamana Thuvadasi. Madhana Thirathosham.",
+      "ta" : "துவாதசி 05.30 (கா. 08.26) மகம் 23.53 (மா. 03.47) தியாஜ் 44.04, மரண 23.53 மேல் சித்த யோகம். பிரதோஷம். வாமன துவாதசி."
+    },
+    "nakshatra" : {
+      "en" : "Magam 23.53",
+      "ta" : "மகம் 23.53"
+    },
+    "lagnam" : {
+      "en" : "Meena Lagnam · Iruppu Naa. 2 Vi. 07",
+      "ta" : "மீன லக்னம் · இருப்பு நா. 2 வி. 07"
+    },
+    "karanam" : {
+      "en" : "9-10.30",
+      "ta" : "9-10.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.14",
+      "ta" : "6.14"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "6.30-7.30",
+      "ta" : "6.30-7.30"
+    },
+    "evening" : {
+      "en" : "4.30-5.30",
+      "ta" : "4.30-5.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "9.30-10.30",
+      "ta" : "9.30-10.30"
+    },
+    "evening" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    },
+    "gulikai" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "emagandam" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    }
+  },
+  "soolam" : {
+    "en" : "Kizhakku (East)",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Uthiradam, Thiruvonam",
+    "ta" : "உத்திராடம், திருவோணம்"
+  }
+}

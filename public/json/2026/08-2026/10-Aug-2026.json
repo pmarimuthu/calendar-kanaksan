@@ -1,0 +1,94 @@
+{
+  "date" : "10-8-2026",
+  "day" : {
+    "en" : "Monday",
+    "ta" : "திங்கள்"
+  },
+  "tamil_month" : {
+    "en" : "Aadi",
+    "ta" : "ஆடி"
+  },
+  "tamil_date" : "25",
+  "tamil_year" : {
+    "en" : "Paraabhava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "26",
+    "ta" : "26"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Dwadashi until 06.38 (morning), then Trayodashi",
+      "ta" : "துவாதசி கா.06.38 வரை, பின்பு திரியோதசி"
+    },
+    "nakshatra" : {
+      "en" : "Thiruvadhirai until 12.01 (afternoon), then Punarpusam",
+      "ta" : "திருவாதிரை மா.12.01 வரை, பின்பு புனர்பூசம்"
+    },
+    "lagnam" : {
+      "en" : "Kadaka Lagnam · Duration Na. 1 Vi. 22",
+      "ta" : "கடக லக்னம் · இருப்பு நா. 1 வி. 22"
+    },
+    "karanam" : {
+      "en" : "9-10.30",
+      "ta" : "9-10.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.04",
+      "ta" : "6.04"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "6.15-7.15",
+      "ta" : "6.15-7.15"
+    },
+    "evening" : {
+      "en" : "4.45-5.45",
+      "ta" : "4.45-5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "9.15-10.15",
+      "ta" : "9.15-10.15"
+    },
+    "evening" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    },
+    "gulikai" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "emagandam" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    }
+  },
+  "soolam" : {
+    "en" : "East",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir (Curd)",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Kettai, Moolam",
+    "ta" : "கேட்டை, மூலம்"
+  }
+}

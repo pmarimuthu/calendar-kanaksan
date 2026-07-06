@@ -1,0 +1,94 @@
+{
+  "date" : "19-03-2026",
+  "day" : {
+    "en" : "Tuesday",
+    "ta" : "செவ்வாய்"
+  },
+  "tamil_month" : {
+    "en" : "Maasi",
+    "ta" : "மாசி"
+  },
+  "tamil_date" : "19",
+  "tamil_year" : {
+    "en" : "Viswavasu",
+    "ta" : "விசுவாவசு"
+  },
+  "islamic_date" : {
+    "en" : "Ramalan 13",
+    "ta" : "ரமலான் 13"
+  },
+  "paksha" : {
+    "en" : "Pournami",
+    "ta" : "பௌர்ணமி"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Pournami 28.30 (Mar 05.52) until, then Prathami - Magam 04.07 (Ka 08.07) until, then Pooram",
+      "ta" : "பௌர்ணமி 28.30 (மா. 05.52) வரை, பின்பு பிரதமை"
+    },
+    "nakshatra" : {
+      "en" : "Magam 04.07 (Ka 08.07) until, then Pooram",
+      "ta" : "மகம் 04.07 (கா. 08.07) வரை, பின்பு பூரம்"
+    },
+    "lagnam" : {
+      "en" : "Kumbha lagnam - Duration Na. 1 Vi. 54",
+      "ta" : "கும்ப லக்னம் · இருப்பு நா. 1 வி. 54"
+    },
+    "karanam" : {
+      "en" : "7.30-9",
+      "ta" : "7.30-9"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.28",
+      "ta" : "6.28"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    },
+    "evening" : {
+      "en" : "1.30-2.30",
+      "ta" : "1.30-2.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.30-11.30",
+      "ta" : "10.30-11.30"
+    },
+    "evening" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "03.00 - 12.00",
+      "evening" : "04.30 - 01.30"
+    },
+    "gulikai" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    },
+    "emagandam" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    }
+  },
+  "soolam" : {
+    "en" : "Vadaku (North)",
+    "ta" : "வடக்கு"
+  },
+  "pariharam" : {
+    "en" : "Paal (Milk)",
+    "ta" : "பால்"
+  },
+  "chandrashtamam" : {
+    "en" : "Thiruvonam",
+    "ta" : "திருவோணம்"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "date" : "26-10-2026",
+  "day" : {
+    "en" : "Monday",
+    "ta" : "திங்கள்"
+  },
+  "tamil_month" : {
+    "en" : "Ippasi",
+    "ta" : "ஐப்பசி"
+  },
+  "tamil_date" : "9",
+  "tamil_year" : {
+    "en" : "Sri Parabava",
+    "ta" : "ஸ்ரீ பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Jawmadul Avval 14",
+    "ta" : "ஜமாஅத்துல் அவ்வல் 14"
+  },
+  "paksha" : {
+    "en" : "Pournami",
+    "ta" : "பௌர்ணமி"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Pournami 10.31 (Ka. 10.14) until, then Asupathi 32.55 (Ma. 07.12)",
+      "ta" : "பௌர்ணமி 10.31 (கா. 10.14) வரை, பின்பு அசுபதி மா.07.12 வரை, பின்பு பரணி"
+    },
+    "nakshatra" : {
+      "en" : "Thiruvu 23.18, 55.58",
+      "ta" : "திருவு 23.18, 55.58"
+    },
+    "lagnam" : {
+      "en" : "Thayir Lagnam · Irruppu Na. 3 Vi. 40",
+      "ta" : "தயிர் இருப்பு நா. 3 வி. 40"
+    },
+    "karanam" : {
+      "en" : "9-10.30",
+      "ta" : "9-10.30"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.02",
+      "ta" : "6.02"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "6.15-7.15",
+      "ta" : "6.15-7.15"
+    },
+    "evening" : {
+      "en" : "2.00-3.00",
+      "ta" : "2.00-3.00"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "9.15-10.15",
+      "ta" : "9.15-10.15"
+    },
+    "evening" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    },
+    "gulikai" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "emagandam" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    }
+  },
+  "soolam" : {
+    "en" : "Kizhakku (East)",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Hastham, Chithirai",
+    "ta" : "ஹஸ்தம், சித்திரை"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "date" : "24-11-2026",
+  "day" : {
+    "en" : "Tuesday",
+    "ta" : "செவ்வாய்"
+  },
+  "tamil_month" : {
+    "en" : "Karthigai",
+    "ta" : "கார்த்திகை"
+  },
+  "tamil_date" : "8",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Jamad-ul-Akhir 14",
+    "ta" : "ஜமாஅத்துல் ஆகிர் 14"
+  },
+  "paksha" : {
+    "en" : "Pournami",
+    "ta" : "பௌர்ணமி"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Pournami 37.52 (Mar. 09.24), Karthigai 47.05 (Kar. 01.05)",
+      "ta" : "பௌர்ணமி 37.52 (மா. 09.24) கார்த்திகை 47.05 (கா. 01.05)"
+    },
+    "nakshatra" : {
+      "en" : "Thiyazh 18.42, Sitha 47.05 Mel Amirtha Yogam",
+      "ta" : "தியாழ் 18.42, சித்த 47.05 மேல் அமிர்த யோகம்"
+    },
+    "lagnam" : {
+      "en" : "Viruchiga Lagnam, Iruppu Na. 3 Vi. 59",
+      "ta" : "விருச்சிக லக்னம் · இருப்பு நா. 3 வி. 59"
+    },
+    "karanam" : {
+      "en" : "7.30-9",
+      "ta" : "7.30-9"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "6.15",
+      "ta" : "6.15"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "7.45-8.45",
+      "ta" : "7.45-8.45"
+    },
+    "evening" : {
+      "en" : "4.45-5.45",
+      "ta" : "4.45-5.45"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "10.45-11.45",
+      "ta" : "10.45-11.45"
+    },
+    "evening" : {
+      "en" : "7.30-8.30",
+      "ta" : "7.30-8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "03.00",
+      "evening" : "04.30"
+    },
+    "gulikai" : {
+      "morning" : "12.00",
+      "evening" : "01.30"
+    },
+    "emagandam" : {
+      "morning" : "09.00",
+      "evening" : "10.30"
+    }
+  },
+  "soolam" : {
+    "en" : "Vadaku (North)",
+    "ta" : "வடக்கு"
+  },
+  "pariharam" : {
+    "en" : "Paal (Milk)",
+    "ta" : "பால்"
+  },
+  "chandrashtamam" : {
+    "en" : "Swathi, Visagam",
+    "ta" : "சுவாதி, விசாகம்"
+  }
+}

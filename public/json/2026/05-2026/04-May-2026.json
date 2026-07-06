@@ -1,0 +1,94 @@
+{
+  "date" : "05-05-2025",
+  "day" : {
+    "en" : "Monday",
+    "ta" : "திங்கள்"
+  },
+  "tamil_month" : {
+    "en" : "Chithirai",
+    "ta" : "சித்திரை"
+  },
+  "tamil_date" : "21",
+  "tamil_year" : {
+    "en" : "Parabava",
+    "ta" : "பராபவ"
+  },
+  "islamic_date" : {
+    "en" : "Thulkandha 16",
+    "ta" : "துல்கஃந்தா 16"
+  },
+  "paksha" : {
+    "en" : "Krishna Paksham",
+    "ta" : "கிருஷ்ண பட்சம்"
+  },
+  "panchangam" : {
+    "tithi" : {
+      "en" : "Thritiyai until 04.41 AM, then Anusha until 09.29 AM, then Ketai",
+      "ta" : "திரிதியை கா.04.41 வரை, பின்பு அனுஷம் கா.09.29 வரை, பின்பு கேட்டை"
+    },
+    "nakshatra" : {
+      "en" : "Anusha 08.53 (04.41 AM), Diyaju 24.26",
+      "ta" : "அனுஷம் 08.53 (கா. 04.41), தியாழு 24.26"
+    },
+    "lagnam" : {
+      "en" : "Mesha Lagnam, Duration Na. 1 Vi. 30",
+      "ta" : "மேஷ லக்னம் · இருப்பு நா. 1 வி. 30"
+    },
+    "karanam" : {
+      "en" : "9-10.30, Suriya Udayam 5.56",
+      "ta" : "9-10.30, சூரிய உதயம் : 5.56"
+    }
+  },
+  "timings" : {
+    "sunrise" : {
+      "en" : "5.56",
+      "ta" : "5.56"
+    }
+  },
+  "auspicious_times" : {
+    "morning" : {
+      "en" : "6.30 - 7.30",
+      "ta" : "6.30 - 7.30"
+    },
+    "evening" : {
+      "en" : "1.30 - 2.30",
+      "ta" : "1.30 - 2.30"
+    }
+  },
+  "gowri_nalla_neram" : {
+    "morning" : {
+      "en" : "9.30 - 10.30",
+      "ta" : "9.30 - 10.30"
+    },
+    "evening" : {
+      "en" : "7.30 - 8.30",
+      "ta" : "7.30 - 8.30"
+    }
+  },
+  "inauspicious_times" : {
+    "rahu" : {
+      "morning" : "07.30",
+      "evening" : "09.00"
+    },
+    "gulikai" : {
+      "morning" : "01.30",
+      "evening" : "03.00"
+    },
+    "emagandam" : {
+      "morning" : "10.30",
+      "evening" : "12.00"
+    }
+  },
+  "soolam" : {
+    "en" : "Kizhakku (East)",
+    "ta" : "கிழக்கு"
+  },
+  "pariharam" : {
+    "en" : "Thayir (Curd)",
+    "ta" : "தயிர்"
+  },
+  "chandrashtamam" : {
+    "en" : "Karthigai",
+    "ta" : "கார்த்திகை"
+  }
+}
