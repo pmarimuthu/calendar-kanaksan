@@ -25,6 +25,8 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 
+import { PulseBadge } from './pulse/PulseBadge';
+
 const CALENDAR_CONFIG = {
   minDate: dayjs('2026-01-01'),
   maxDate: dayjs('2026-08-31'),
@@ -186,6 +188,9 @@ function Playground() {
                 locale={locale}
               />
             </Paper>
+
+            {/* pulse-kanaksan visitor stats */}
+            <PulseBadge />
           </Box>
         </Box>
       </LocalizationProvider>

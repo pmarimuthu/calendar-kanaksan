@@ -10,3 +10,4 @@ export const PLAYGROUND_CONFIG = {
     DEFAULT_MODE: 'dark' as const,
   },
 } as const;
+export const PULSE_PROJECT_ID = 'calendar-kanaksan';
