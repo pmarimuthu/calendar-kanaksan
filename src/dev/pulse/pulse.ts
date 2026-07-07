@@ -8,7 +8,6 @@ import {
 } from 'firebase/firestore';
 import { db } from './firebase';
 
-const VISITORS = 'visitors';
 const PROJECTS = 'projects';
 
 export interface ProjectStats {
@@ -42,17 +41,11 @@ export async function recordVisit(
   if (!fingerprintId || !projectId) return;
 
   const today = todayISO();
-  const visitorRef = doc(db, VISITORS, fingerprintId);
-  const visitorSnap = await getDoc(visitorRef);
-  const isNewGlobal = !visitorSnap.exists();
 
-  if (isNewGlobal) {
-    await setDoc(visitorRef, { firstSeen: serverTimestamp(), lastSeen: serverTimestamp() });
-  } else {
-    await updateDoc(visitorRef, { lastSeen: serverTimestamp() });
-  }
-
-  const pvRef = doc(db, VISITORS, fingerprintId, PROJECTS, projectId);
+  // Per-project fingerprint registry (projects/{id}/fingerprints/{fp}).
+  // Note: the top-level visitors/* registry is write-only under the live
+  // security rules (reads denied), so dedup must happen here instead.
+  const pvRef = doc(db, PROJECTS, projectId, 'fingerprints', fingerprintId);
   const pvSnap = await getDoc(pvRef);
   const isNewToProject = !pvSnap.exists();
 
@@ -86,7 +79,7 @@ export async function recordVisit(
   if (!pageKey) return;
 
   const pageRef = doc(db, PROJECTS, projectId, 'pages', pageKey);
-  const ppRef = doc(db, VISITORS, fingerprintId, PROJECTS, projectId, 'pages', pageKey);
+  const ppRef = doc(db, PROJECTS, projectId, 'fingerprints', fingerprintId, 'pages', pageKey);
   const ppSnap = await getDoc(ppRef);
   const isNewToPage = !ppSnap.exists();
 
