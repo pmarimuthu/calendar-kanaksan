@@ -30,7 +30,7 @@ import { PulseBadge } from './pulse/PulseBadge';
 const CALENDAR_CONFIG = {
   minDate: dayjs('2026-01-01'),
   maxDate: dayjs('2026-08-31'),
-  defaultDate: '2026-06-20',
+  defaultDate: '2026-07-08',
   defaultLocale: 'ta' as const,
   defaultMode: 'dark' as const,
 };
@@ -44,9 +44,14 @@ function Playground() {
     CALENDAR_CONFIG.defaultLocale
   );
 
-  const [date, setDate] = useState(
-    CALENDAR_CONFIG.defaultDate
-  );
+  const [date, setDate] = useState(() => {
+    const today = dayjs();
+    const inRange =
+      !today.isBefore(CALENDAR_CONFIG.minDate, 'day') &&
+      !today.isAfter(CALENDAR_CONFIG.maxDate, 'day');
+    return (inRange ? today : CALENDAR_CONFIG.maxDate).format('YYYY-MM-DD');
+  });
+
   const dark = mode === 'dark';
 
   const theme = useMemo(
