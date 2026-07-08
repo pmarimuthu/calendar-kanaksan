@@ -4,6 +4,7 @@ import { DayDeity } from '../DayDeity/DayDeity';
 import { parseApiDate } from '../../utils/dateUtils';
 import { useIstNow, isIstToday, isSunriseActive } from '../../utils/timeWindows';
 import { dataLocale } from '../../utils/dataLocale';
+import { translateValue } from '../../utils/translateValue';
 import type { PanchangamData } from '../../types/panchangam';
 import type { CalendarLocale } from '../../types/props';
 
@@ -33,9 +34,9 @@ export function SheetHeader({ data, locale, deityImageBaseUrl }: SheetHeaderProp
         </div>
       </div>
       <div className="tdscal-header-meta">
-        <div className="tdscal-header-weekday">{data.day[dl]}</div>
+        <div className="tdscal-header-weekday">{translateValue(data.day[dl], locale)}</div>
         <div className="tdscal-header-tamil">
-          {data.tamil_month[dl]} {data.tamil_date} &middot; {data.tamil_year[dl]} {t('label.year')}
+          {translateValue(data.tamil_month[dl], locale, 'month')} {data.tamil_date} &middot; {translateValue(data.tamil_year[dl], locale)} {t('label.year')}
         </div>
         <div className={`tdscal-header-sunrise${sunriseNow ? ' tdscal-sunrise-now' : ''}`}>
           <SunriseIcon />
@@ -43,7 +44,7 @@ export function SheetHeader({ data, locale, deityImageBaseUrl }: SheetHeaderProp
         </div>
       </div>
       {deityImageBaseUrl && (
-        <DayDeity day={data.day.en} baseUrl={deityImageBaseUrl} alt={data.day[dl]} />
+        <DayDeity day={data.day.en} baseUrl={deityImageBaseUrl} alt={translateValue(data.day[dl], locale)} />
       )}
     </header>
   );
