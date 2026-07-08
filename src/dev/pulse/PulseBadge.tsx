@@ -1,29 +1,12 @@
-import { Typography } from '@mui/material';
-import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import { usePulse } from './usePulse';
 import { PULSE_PROJECT_ID } from '../constants';
 
-/** Discreet visitor-stats footer for the demo playground. */
+/**
+ * Records a pulse-kanaksan visit for the demo site. Renders nothing —
+ * stats are viewed on the pulse.kanaksan.com dashboard instead. To show
+ * the counters again, render stats from usePulse() here.
+ */
 export function PulseBadge() {
-  const { stats, loading, error } = usePulse({ projectId: PULSE_PROJECT_ID });
-
-  if (loading || error || !stats) return null;
-
-  return (
-    <Typography
-      variant="caption"
-      color="text.secondary"
-      sx={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        gap: 0.75,
-        mt: 2,
-      }}
-    >
-      <VisibilityOutlinedIcon sx={{ fontSize: 14 }} />
-      {stats.total.toLocaleString()} visits · {stats.unique.toLocaleString()} unique
-      · {stats.todayCount.toLocaleString()} today
-    </Typography>
-  );
+  usePulse({ projectId: PULSE_PROJECT_ID });
+  return null;
 }

@@ -196,7 +196,7 @@ function Playground() {
             </Paper>
 
             {/* pulse-kanaksan visitor stats */}
-            {/* <PulseBadge /> */}
+            <PulseBadge />
           </Box>
         </Box>
       </LocalizationProvider>

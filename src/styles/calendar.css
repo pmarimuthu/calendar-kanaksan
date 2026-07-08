@@ -231,3 +231,59 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* "Happening now" breathing highlights (shown only when the sheet date is
+   today in IST). Gold for auspicious, ember red for times to avoid. */
+.tdscal-now-good {
+  animation: tdscal-text-breathe-gold 3.5s ease-in-out infinite;
+}
+
+.tdscal-now-avoid {
+  animation: tdscal-text-breathe-red 3.5s ease-in-out infinite;
+}
+
+@keyframes tdscal-text-breathe-gold {
+  0%,
+  100% {
+    color: #f6d873;
+    text-shadow: 0 0 8px rgba(212, 175, 55, 0.55);
+  }
+  50% {
+    color: #8a6d1d;
+    text-shadow: 0 0 2px rgba(212, 175, 55, 0.1);
+  }
+}
+
+@keyframes tdscal-text-breathe-red {
+  0%,
+  100% {
+    color: #ff8a80;
+    text-shadow: 0 0 8px rgba(229, 57, 53, 0.5);
+  }
+  50% {
+    color: #93312c;
+    text-shadow: 0 0 2px rgba(229, 57, 53, 0.1);
+  }
+}
+
+/* Sunrise window (10 min before to 5 min after சூரிய உதயம்): text breathes
+   gold; the icon glows in rising-sun colours. */
+.tdscal-sunrise-now {
+  animation: tdscal-text-breathe-gold 3.5s ease-in-out infinite;
+}
+
+.tdscal-sunrise-now svg {
+  animation: tdscal-sunrise-glow 3.5s ease-in-out infinite;
+}
+
+@keyframes tdscal-sunrise-glow {
+  0%,
+  100% {
+    color: #ffb300;
+    filter: drop-shadow(0 0 6px rgba(255, 111, 0, 0.85));
+  }
+  50% {
+    color: #ff6f00;
+    filter: drop-shadow(0 0 2px rgba(255, 111, 0, 0.25));
+  }
+}
