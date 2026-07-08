@@ -230,6 +230,55 @@
   .tdscal-pd {
     grid-template-columns: 1fr;
   }
+
+  /* Header: compact date box, tighter meta, smaller deity image so all
+     three fit side-by-side on narrow screens. */
+  .tdscal-header-date {
+    min-width: 88px;
+    padding: 0.75rem 0.6rem;
+  }
+
+  .tdscal-header-day {
+    font-size: 30px;
+  }
+
+  .tdscal-header-month {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  .tdscal-header-meta {
+    padding: 0.75rem 0.75rem;
+    min-width: 0; /* allow text to wrap instead of forcing overflow */
+  }
+
+  .tdscal-header-weekday {
+    font-size: 17px;
+  }
+
+  .tdscal-header-tamil {
+    font-size: 13px;
+  }
+
+  .tdscal-header-sunrise {
+    font-size: 12px;
+  }
+
+  .tdscal-deity {
+    padding: 8px;
+  }
+
+  .tdscal-deity-img {
+    max-height: 64px;
+  }
+
+  .tdscal-cell {
+    padding: 0.875rem 1rem;
+  }
+
+  .tdscal-pd-item {
+    padding: 10px 1rem;
+  }
 }
 
 /* "Happening now" breathing highlights (shown only when the sheet date is

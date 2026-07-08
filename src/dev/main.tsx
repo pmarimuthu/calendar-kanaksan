@@ -9,11 +9,13 @@ import dayjs from 'dayjs';
 import {
   Box,
   CssBaseline,
+  Divider,
   IconButton,
+  MenuItem,
   Paper,
+  Select,
   ThemeProvider,
   Tooltip,
-  Typography,
   createTheme,
 } from '@mui/material';
 
@@ -34,6 +36,25 @@ const CALENDAR_CONFIG = {
   defaultLocale: 'ta' as const,
   defaultMode: 'dark' as const,
 };
+
+const INDIAN_LANGUAGES: Array<{ code: CalendarLocale; label: string }> = [
+  { code: 'ta', label: 'தமிழ்' },
+  { code: 'en', label: 'English' },
+  { code: 'hi', label: 'हिन्दी' },
+  { code: 'te', label: 'తెలుగు' },
+  { code: 'kn', label: 'ಕನ್ನಡ' },
+  { code: 'ml', label: 'മലയാളം' },
+  { code: 'mr', label: 'मराठी' },
+  { code: 'bn', label: 'বাংলা' },
+  { code: 'gu', label: 'ગુજરાતી' },
+  { code: 'pa', label: 'ਪੰਜਾਬੀ' },
+];
+
+const OTHER_LANGUAGES: Array<{ code: CalendarLocale; label: string }> = [
+  { code: 'fr', label: 'Français' },
+  { code: 'ms', label: 'Bahasa Melayu' },
+  { code: 'si', label: 'සිංහල' },
+];
 
 function Playground() {
   const [mode, setMode] = useState<CalendarMode>(
@@ -95,6 +116,7 @@ function Playground() {
                 mb: 2,
                 p: 1.5,
                 display: 'flex',
+                flexWrap: 'wrap',
                 justifyContent: 'flex-end',
                 alignItems: 'center',
                 gap: 1.5,
@@ -115,45 +137,37 @@ function Playground() {
                   textField: {
                     size: 'small',
                     sx: {
-                      width: 190,
+                      width: { xs: '100%', sm: 190 },
                     },
                   },
                 }}
               />
 
               {/* Language */}
-              <Tooltip title="Change Language">
-                <Paper
-                  variant="outlined"
-                  sx={{
-                    height: 40,
-                    px: 1.5,
-                    display: 'flex',
-                    alignItems: 'center',
-                    cursor: 'pointer',
-                    userSelect: 'none',
-                  }}
-                  onClick={() =>
-                    setLocale(locale === 'ta' ? 'en' : 'ta')
-                  }
-                >
-                  <LanguageIcon
-                    fontSize="small"
-                    sx={{ mr: 1 }}
-                  />
-
-                  <Typography
-                    variant="body2"
-                    sx={{
-                      minWidth: 60,
-                      textAlign: 'center',
-                      fontWeight: 600,
-                    }}
-                  >
-                    {locale === 'ta' ? 'தமிழ்' : 'English'}
-                  </Typography>
-                </Paper>
-              </Tooltip>
+              <Select
+                size="small"
+                value={locale}
+                onChange={(event) =>
+                  setLocale(event.target.value as CalendarLocale)
+                }
+                startAdornment={
+                  <LanguageIcon fontSize="small" sx={{ mr: 1 }} />
+                }
+                sx={{ width: { xs: 'calc(100% - 52px)', sm: 175 }, height: 40 }}
+                MenuProps={{ slotProps: { paper: { sx: { maxHeight: 360 } } } }}
+              >
+                {INDIAN_LANGUAGES.map((lang) => (
+                  <MenuItem key={lang.code} value={lang.code}>
+                    {lang.label}
+                  </MenuItem>
+                ))}
+                <Divider />
+                {OTHER_LANGUAGES.map((lang) => (
+                  <MenuItem key={lang.code} value={lang.code}>
+                    {lang.label}
+                  </MenuItem>
+                ))}
+              </Select>
 
               {/* Theme */}
               <Tooltip title="Toggle Theme">

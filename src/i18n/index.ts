@@ -1,11 +1,33 @@
 import i18next, { type i18n as I18nInstance } from 'i18next';
 import ta from './locales/ta/translation.json';
 import en from './locales/en/translation.json';
+import hi from './locales/hi/translation.json';
+import te from './locales/te/translation.json';
+import kn from './locales/kn/translation.json';
+import ml from './locales/ml/translation.json';
+import mr from './locales/mr/translation.json';
+import bn from './locales/bn/translation.json';
+import gu from './locales/gu/translation.json';
+import pa from './locales/pa/translation.json';
+import fr from './locales/fr/translation.json';
+import ms from './locales/ms/translation.json';
+import si from './locales/si/translation.json';
 import type { CalendarLocale } from '../types/props';
 
 const resources = {
   ta: { translation: ta },
   en: { translation: en },
+  hi: { translation: hi },
+  te: { translation: te },
+  kn: { translation: kn },
+  ml: { translation: ml },
+  mr: { translation: mr },
+  bn: { translation: bn },
+  gu: { translation: gu },
+  pa: { translation: pa },
+  fr: { translation: fr },
+  ms: { translation: ms },
+  si: { translation: si },
 } as const;
 
 /**

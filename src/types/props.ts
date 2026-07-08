@@ -1,7 +1,9 @@
 import type { ThemeTokens } from '../themes/types';
 
 export type CalendarMode = 'dark' | 'light';
-export type CalendarLocale = 'ta' | 'en';
+export type CalendarLocale =
+  | 'ta' | 'en' | 'hi' | 'te' | 'kn' | 'ml' | 'mr' | 'bn' | 'gu' | 'pa'
+  | 'fr' | 'ms' | 'si';
 /**
  * "rest" — fetch from `apiUrl` (the eventual REST API, with `apiKey`).
  * "local" — read pre-generated JSON files under `baseUrl`, following the
@@ -33,7 +35,11 @@ export interface TamilCalendarProps {
    * built-in "default" theme matching the original kanaksan.com design.
    */
   theme?: string | ThemeTokens;
-  /** UI label language. Defaults to "ta". Field data itself is always bilingual. */
+  /**
+   * UI label language. Defaults to "ta". Data values from the API are
+   * bilingual (ta/en) only: "ta" shows Tamil values, every other locale
+   * shows English values with localized labels.
+   */
   locale?: CalendarLocale;
   /**
    * Root URL serving weekday deity images named `{weekday}.webp` (lowercase

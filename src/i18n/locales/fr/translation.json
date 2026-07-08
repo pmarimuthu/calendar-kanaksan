@@ -1,0 +1,20 @@
+{
+  "section": { "auspicious": "Heures propices", "inauspicious": "Heures à éviter" },
+  "label": {
+    "nallaNeram": "Nalla Neram",
+    "gowriNallaNeram": "Gowri Nalla Neram",
+    "rahu": "Rahu Kalam",
+    "emagandam": "Emagandam",
+    "gulikai": "Gulikai",
+    "tithi": "Tithi",
+    "nakshatra": "Nakshatra",
+    "lagnam": "Lagnam",
+    "chandrashtamam": "Chandrashtamam",
+    "soolam": "Soolam",
+    "pariharam": "Pariharam",
+    "sunrise": "Lever du soleil",
+    "year": "Année"
+  },
+  "status": { "loading": "Chargement de la fiche du jour…", "error": "Impossible de charger les données.", "retry": "Réessayer" },
+  "months": ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
+}

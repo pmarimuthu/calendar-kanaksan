@@ -1,0 +1,20 @@
+{
+  "section": { "auspicious": "Waktu Baik", "inauspicious": "Waktu Dielakkan" },
+  "label": {
+    "nallaNeram": "Nalla Neram",
+    "gowriNallaNeram": "Gowri Nalla Neram",
+    "rahu": "Rahu Kalam",
+    "emagandam": "Emagandam",
+    "gulikai": "Gulikai",
+    "tithi": "Tithi",
+    "nakshatra": "Nakshatra",
+    "lagnam": "Lagnam",
+    "chandrashtamam": "Chandrashtamam",
+    "soolam": "Soolam",
+    "pariharam": "Pariharam",
+    "sunrise": "Matahari terbit",
+    "year": "Tahun"
+  },
+  "status": { "loading": "Memuatkan helaian harian…", "error": "Data tidak dapat dimuatkan.", "retry": "Cuba lagi" },
+  "months": ["Januari", "Februari", "Mac", "April", "Mei", "Jun", "Julai", "Ogos", "September", "Oktober", "November", "Disember"]
+}
