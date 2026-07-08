@@ -29,6 +29,7 @@ export function TamilCalendar({
   mode = 'dark',
   theme,
   locale = 'ta',
+  deityImageBaseUrl,
   className,
 }: TamilCalendarProps) {
   const i18nInstance = useCalendarI18n(locale);
@@ -45,7 +46,7 @@ export function TamilCalendar({
           {state.status === 'error' && <ErrorState onRetry={refetch} />}
           {state.status === 'success' && (
             <div className="tdscal-card">
-              <SheetHeader data={state.data} locale={locale} />
+              <SheetHeader data={state.data} locale={locale} deityImageBaseUrl={deityImageBaseUrl} />
               <div className="tdscal-row">
                 <AuspiciousTimes data={state.data} locale={locale} />
                 <InauspiciousTimes data={state.data} />

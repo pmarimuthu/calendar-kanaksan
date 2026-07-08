@@ -1,4 +1,6 @@
 export { TamilCalendar } from './components/TamilCalendar/TamilCalendar';
+export { DayDeity } from './components/DayDeity/DayDeity';
+export type { DayDeityProps } from './components/DayDeity/DayDeity';
 
 export { registerTheme, getRegisteredTheme, listRegisteredThemes, defaultTheme } from './themes';
 export type { ThemeTokens, ThemeDefinition } from './themes/types';

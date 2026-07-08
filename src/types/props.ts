@@ -35,6 +35,12 @@ export interface TamilCalendarProps {
   theme?: string | ThemeTokens;
   /** UI label language. Defaults to "ta". Field data itself is always bilingual. */
   locale?: CalendarLocale;
+  /**
+   * Root URL serving weekday deity images named `{weekday}.webp` (lowercase
+   * english weekday, e.g. `/deities/sunday.webp`). When omitted, no deity
+   * image is rendered.
+   */
+  deityImageBaseUrl?: string;
   /** Extra class name applied to the component's root element. */
   className?: string;
 }

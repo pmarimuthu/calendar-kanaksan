@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { SunriseIcon } from '../icons/CalendarIcons';
+import { DayDeity } from '../DayDeity/DayDeity';
 import { parseApiDate } from '../../utils/dateUtils';
 import type { PanchangamData } from '../../types/panchangam';
 import type { CalendarLocale } from '../../types/props';
@@ -7,10 +8,12 @@ import type { CalendarLocale } from '../../types/props';
 export interface SheetHeaderProps {
   data: PanchangamData;
   locale: CalendarLocale;
+  /** Root URL for weekday deity images; omit to hide the image. */
+  deityImageBaseUrl?: string;
 }
 
 /** Date box + weekday/Tamil-date/sunrise meta block at the top of the sheet. */
-export function SheetHeader({ data, locale }: SheetHeaderProps) {
+export function SheetHeader({ data, locale, deityImageBaseUrl }: SheetHeaderProps) {
   const { t } = useTranslation();
   const { day, month, year } = parseApiDate(data.date);
   const months = t('months', { returnObjects: true }) as string[];
@@ -34,6 +37,9 @@ export function SheetHeader({ data, locale }: SheetHeaderProps) {
           {t('label.sunrise')} &middot; {data.timings.sunrise[locale]}
         </div>
       </div>
+      {deityImageBaseUrl && (
+        <DayDeity day={data.day.en} baseUrl={deityImageBaseUrl} alt={data.day[locale]} />
+      )}
     </header>
   );
 }

@@ -187,6 +187,7 @@ function Playground() {
             >
               <TamilCalendar
                 source="local"
+                deityImageBaseUrl="/deities"
                 baseUrl="/json"
                 date={date}
                 mode={mode}
@@ -195,7 +196,7 @@ function Playground() {
             </Paper>
 
             {/* pulse-kanaksan visitor stats */}
-            <PulseBadge />
+            {/* <PulseBadge /> */}
           </Box>
         </Box>
       </LocalizationProvider>
