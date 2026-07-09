@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import type { PanchangamData } from '../../types/panchangam';
 import type { CalendarLocale } from '../../types/props';
 import { dataLocale } from '../../utils/dataLocale';
-import { translateValue } from '../../utils/translateValue';
+import { translateValue, formatTimeMarkers } from '../../utils/translateValue';
 
 export interface PanchangamDetailsProps {
   data: PanchangamData;
@@ -13,7 +13,8 @@ export interface PanchangamDetailsProps {
 export function PanchangamDetails({ data, locale }: PanchangamDetailsProps) {
   const { t } = useTranslation();
   const dl = dataLocale(locale);
-  const tv = (v: string) => translateValue(v, locale);
+  // Data shows English for every non-Tamil locale; convert Ka./Ma. to AM/PM there.
+  const tv = (v: string) => translateValue(dl === 'en' ? formatTimeMarkers(v) : v, locale);
 
   const items = [
     { key: 'tithi', label: t('label.tithi'), value: tv(data.panchangam.tithi[dl]) },

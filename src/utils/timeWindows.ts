@@ -89,6 +89,39 @@ export function isSunriseActive(
   return cur >= t - beforeMin && cur < t + afterMin;
 }
 
+function meridiem(minutes: number): 'AM' | 'PM' {
+  return minutes % (24 * 60) < 12 * 60 ? 'AM' : 'PM';
+}
+
+/**
+ * Formats an auspicious range with AM/PM: "10.45-11.45" -> "10.45-11.45 AM",
+ * "11.45-12.45" (crosses noon) -> "11.45 AM-12.45 PM". Unparseable values
+ * (e.g. "------------") are returned unchanged.
+ */
+export function formatRangeAmPm(range: string, slot: 'morning' | 'evening'): string {
+  const m = RANGE_RE.exec(range.trim());
+  if (!m) return range;
+  const start = toMinutes(Number(m[1]), Number(m[2]), slot);
+  let end = toMinutes(Number(m[3]), Number(m[4]), slot);
+  if (end <= start) end += 12 * 60;
+  const sTxt = `${m[1]}.${m[2]}`;
+  const eTxt = `${m[3]}.${m[4]}`;
+  const sM = meridiem(start);
+  const eM = meridiem(end);
+  return sM === eM ? `${sTxt}-${eTxt} ${sM}` : `${sTxt} ${sM}-${eTxt} ${eM}`;
+}
+
+/** Formats an inauspicious start/end window with AM/PM, e.g. "01.30 – 03.00 PM". */
+export function formatWindowAmPm(start: string, end: string): string {
+  const s = daytimeMinutes(start);
+  let e = daytimeMinutes(end);
+  if (s === null || e === null) return `${start} – ${end}`;
+  if (e <= s) e += 12 * 60;
+  const sM = meridiem(s);
+  const eM = meridiem(e);
+  return sM === eM ? `${start} – ${end} ${sM}` : `${start} ${sM} – ${end} ${eM}`;
+}
+
 /** IST clock that re-renders the consumer every `refreshMs` (default 30s). */
 export function useIstNow(refreshMs = 30000): Date {
   const [now, setNow] = useState<Date>(() => istNow());

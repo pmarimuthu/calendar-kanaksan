@@ -72,3 +72,14 @@ export function translateValue(
   // collapse "X (X)" into "X".
   return translated.replace(/([^\s(][^()]*?)\s*\(\s*\1\s*\)/g, '$1');
 }
+
+/**
+ * Rewrites Tamil time-of-day markers in English data values to AM/PM:
+ * "(Ka. 06.13)" -> "(06.13 AM)", "(Maa. 02.45)" -> "(02.45 PM)".
+ * Ka./Kaa./Kar = காலை (morning); Ma./Maa./Mar = மாலை (evening).
+ */
+export function formatTimeMarkers(value: string): string {
+  return value
+    .replace(/\b(?:kaa?r?)\.?\s*(\d{1,2}\.\d{2})/gi, '$1 AM')
+    .replace(/\b(?:maa?r?)\.?\s*(\d{1,2}\.\d{2})/gi, '$1 PM');
+}

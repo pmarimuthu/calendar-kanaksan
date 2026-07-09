@@ -16,6 +16,7 @@ import {
   Select,
   ThemeProvider,
   Tooltip,
+  Typography,
   createTheme,
 } from '@mui/material';
 
@@ -55,6 +56,22 @@ const OTHER_LANGUAGES: Array<{ code: CalendarLocale; label: string }> = [
   { code: 'ms', label: 'Bahasa Melayu (Malay)' },
   { code: 'si', label: 'සිංහල (Sinhala)' },
 ];
+
+const APP_TITLE: Record<CalendarLocale, string> = {
+  ta: 'தினசரி நாட்காட்டி',
+  en: 'Daily Calendar',
+  hi: 'दैनिक कैलेंडर',
+  te: 'రోజువారీ క్యాలెండర్',
+  kn: 'ದೈನಂದಿನ ಕ್ಯಾಲೆಂಡರ್',
+  ml: 'ദൈനംദിന കലണ്ടർ',
+  mr: 'दैनिक दिनदर्शिका',
+  bn: 'দৈনিক পঞ্জিকা',
+  gu: 'દૈનિક કેલેન્ડર',
+  pa: 'ਰੋਜ਼ਾਨਾ ਕੈਲੰਡਰ',
+  fr: 'Calendrier quotidien',
+  ms: 'Kalendar Harian',
+  si: 'දෛනික දින දර්ශනය',
+};
 
 function Playground() {
   const [mode, setMode] = useState<CalendarMode>(
@@ -109,6 +126,15 @@ function Playground() {
               mx: 'auto',
             }}
           >
+            {/* Title */}
+            <Typography
+              variant="h5"
+              component="h1"
+              sx={{ textAlign: 'center', fontWeight: 600, mb: 2 }}
+            >
+              {APP_TITLE[locale]}
+            </Typography>
+
             {/* Toolbar */}
             <Paper
               elevation={3}

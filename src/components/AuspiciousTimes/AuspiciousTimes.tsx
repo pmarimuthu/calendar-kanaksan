@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { AuspiciousIcon } from '../icons/CalendarIcons';
-import { useIstNow, isIstToday, isActiveRange } from '../../utils/timeWindows';
+import { useIstNow, isIstToday, isActiveRange, formatRangeAmPm } from '../../utils/timeWindows';
 import { dataLocale } from '../../utils/dataLocale';
 import type { PanchangamData } from '../../types/panchangam';
 import type { CalendarLocale } from '../../types/props';
@@ -25,6 +25,14 @@ export function AuspiciousTimes({ data, locale }: AuspiciousTimesProps) {
   const nallaActive = isActive(data.auspicious_times);
   const gowriActive = isActive(data.gowri_nalla_neram);
 
+  const renderRange = (raw: string, slot: 'morning' | 'evening') => {
+    if (/^-+$/.test(raw.trim())) {
+      // keep column alignment but show nothing
+      return <span className="tdscal-blank">{raw}</span>;
+    }
+    return <span>{formatRangeAmPm(raw, slot)}</span>;
+  };
+
   return (
     <section className="tdscal-cell">
       <div className="tdscal-au-title">
@@ -35,16 +43,16 @@ export function AuspiciousTimes({ data, locale }: AuspiciousTimesProps) {
       <div className="tdscal-au-item">
         <div className={`tdscal-au-label${nallaActive ? ' tdscal-now-good' : ''}`}>{t('label.nallaNeram')}</div>
         <div className="tdscal-au-times">
-          <span>{data.auspicious_times.morning[dl]}</span>
-          <span>{data.auspicious_times.evening[dl]}</span>
+          {renderRange(data.auspicious_times.morning[dl], 'morning')}
+          {renderRange(data.auspicious_times.evening[dl], 'evening')}
         </div>
       </div>
 
       <div className="tdscal-au-item">
         <div className={`tdscal-au-label${gowriActive ? ' tdscal-now-good' : ''}`}>{t('label.gowriNallaNeram')}</div>
         <div className="tdscal-au-times">
-          <span>{data.gowri_nalla_neram.morning[dl]}</span>
-          <span>{data.gowri_nalla_neram.evening[dl]}</span>
+          {renderRange(data.gowri_nalla_neram.morning[dl], 'morning')}
+          {renderRange(data.gowri_nalla_neram.evening[dl], 'evening')}
         </div>
       </div>
     </section>

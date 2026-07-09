@@ -80,29 +80,28 @@
   max-height: 96px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  /* Three rings, inside out: gold border, animated middle ring, gold outer. */
-  border: 2px solid var(--tds-deity-border, #d4af37);
+  border: 1px solid var(--tds-deity-border, #d4af37);
   border-radius: 10px;
   display: block;
-  box-shadow:
-    0 0 0 3px #ffffff,
-    0 0 0 5px var(--tds-deity-border, #d4af37);
-  animation: tdscal-deity-rings 3s ease-in-out infinite;
+  animation: tdscal-deity-breathe 3.5s ease-in-out infinite;
 }
 
-/* Middle ring cycles white -> gray -> white continuously; gold rings stay. */
-@keyframes tdscal-deity-rings {
+/* Single gold border "breathing": bright gold with a soft glow, to deep gold. */
+@keyframes tdscal-deity-breathe {
   0%,
   100% {
-    box-shadow:
-      0 0 0 3px #ffffff,
-      0 0 0 5px var(--tds-deity-border, #d4af37);
+    border-color: #f6d873;
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.55);
   }
   50% {
-    box-shadow:
-      0 0 0 3px #8d8d8d,
-      0 0 0 5px var(--tds-deity-border, #d4af37);
+    border-color: #7a5d15;
+    box-shadow: 0 0 2px rgba(212, 175, 55, 0.1);
   }
+}
+
+/* Placeholder for missing ranges ("------------"): keeps width, invisible. */
+.tdscal-blank {
+  visibility: hidden;
 }
 
 .tdscal-header-weekday {
