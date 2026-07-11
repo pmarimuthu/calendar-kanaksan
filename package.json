@@ -1,6 +1,6 @@
 {
   "name": "@kanaksan/tamil-calendar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React component for rendering the kanaksan.com Tamil daily panchangam calendar sheet, backed by a REST API, with dark/light mode and a pluggable theme system.",
   "type": "module",
   "license": "MIT",
