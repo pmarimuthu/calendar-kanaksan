@@ -27,6 +27,8 @@ function serveLocalJson(): Plugin {
 }
 
 export default defineConfig({
+  publicDir: false,
+
   plugins: [
     react(),
     serveLocalJson(),
@@ -46,7 +48,6 @@ export default defineConfig({
       formats: ['es', 'cjs'],
       fileName: (format) => `tamil-calendar.${format === 'es' ? 'js' : 'cjs'}`,
     },
-    publicDir: false,
     cssCodeSplit: false,
     sourcemap: false,
     emptyOutDir: true,
@@ -55,6 +56,8 @@ export default defineConfig({
         'react',
         'react-dom',
         'react/jsx-runtime',
+        'i18next',
+        'react-i18next',
         '@mui/material',
         '@mui/icons-material',
         '@mui/x-date-pickers',

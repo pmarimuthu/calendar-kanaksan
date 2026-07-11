@@ -1,3 +1,22 @@
+
+import type { CalendarLocale } from './types/props';
+
+export const SUPPORTED_LOCALES: Array<{ code: CalendarLocale; label: string }> = [
+  { code: 'ta', label: 'தமிழ் (Tamil)' },
+  { code: 'en', label: 'English' },
+  { code: 'hi', label: 'हिन्दी (Hindi)' },
+  { code: 'te', label: 'తెలుగు (Telugu)' },
+  { code: 'kn', label: 'ಕನ್ನಡ (Kannada)' },
+  { code: 'ml', label: 'മലയാളം (Malayalam)' },
+  { code: 'mr', label: 'मराठी (Marathi)' },
+  { code: 'bn', label: 'বাংলা (Bengali)' },
+  { code: 'gu', label: 'ગુજરાતી (Gujarati)' },
+  { code: 'pa', label: 'ਪੰਜਾਬੀ (Punjabi)' },
+  { code: 'fr', label: 'Français (French)' },
+  { code: 'ms', label: 'Bahasa Melayu (Malay)' },
+  { code: 'si', label: 'සිංහල (Sinhala)' },
+];
+
 export { TamilCalendar } from './components/TamilCalendar/TamilCalendar';
 export { DayDeity } from './components/DayDeity/DayDeity';
 export type { DayDeityProps } from './components/DayDeity/DayDeity';
