@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { fetchPanchangam, fetchLocalPanchangam, CalendarApiError } from '../utils/api';
 import { normalizeInputDate, toRequestDateParam, toLocalJsonPath } from '../utils/dateUtils';
 import type { PanchangamData } from '../types/panchangam';
-import type { CalendarSource } from '../types/props';
 
 export type CalendarDataState =
   | { status: 'loading' }
@@ -10,7 +9,6 @@ export type CalendarDataState =
   | { status: 'success'; data: PanchangamData };
 
 export interface UseCalendarDataOptions {
-  source?: CalendarSource;
   apiUrl?: string;
   apiKey?: string;
   baseUrl?: string;
@@ -19,18 +17,15 @@ export interface UseCalendarDataOptions {
 
 export interface UseCalendarDataResult {
   state: CalendarDataState;
-  /** Re-runs the fetch for the current source/apiUrl/apiKey/baseUrl/date — wired to retry UI. */
   refetch: () => void;
 }
 
 /**
- * Fetches a single day's panchangam data and keeps it in sync with
- * source/apiUrl/apiKey/baseUrl/date. Cancels any in-flight request (via
- * AbortController) when those change or the component unmounts, so a slow
- * earlier request can never clobber a newer one.
+ * Fetches a single day's panchangam data.
+ * Auto-detects mode: if `apiUrl` is provided → REST API; otherwise → static JSON files from `baseUrl`.
+ * Cancels any in-flight request via AbortController when deps change or component unmounts.
  */
 export function useCalendarData({
-  source = 'rest',
   apiUrl,
   apiKey,
   baseUrl,
@@ -46,10 +41,9 @@ export function useCalendarData({
     const controller = new AbortController();
     setState({ status: 'loading' });
 
-    const request =
-      source === 'local'
-        ? fetchLocalPanchangam({ baseUrl: baseUrl ?? '', localPath, signal: controller.signal })
-        : fetchPanchangam({ apiUrl: apiUrl ?? '', apiKey: apiKey ?? '', dateParam, signal: controller.signal });
+    const request = apiUrl
+      ? fetchPanchangam({ apiUrl, apiKey: apiKey ?? '', dateParam, signal: controller.signal })
+      : fetchLocalPanchangam({ baseUrl: baseUrl ?? '', localPath, signal: controller.signal });
 
     request
       .then((data) => setState({ status: 'success', data }))
@@ -60,7 +54,7 @@ export function useCalendarData({
       });
 
     return () => controller.abort();
-  }, [source, apiUrl, apiKey, baseUrl, dateParam, localPath, reloadToken]);
+  }, [apiUrl, apiKey, baseUrl, dateParam, localPath, reloadToken]);
 
   return { state, refetch: () => setReloadToken((t) => t + 1) };
 }

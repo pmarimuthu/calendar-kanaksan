@@ -11,30 +11,33 @@ import { LoadingState, ErrorState } from '../CalendarStatus/CalendarStatus';
 import type { TamilCalendarProps } from '../../types/props';
 import '../../styles/calendar.css';
 
+const DEFAULT_BASE_URL = 'https://calendar.kanaksan.com/json';
+const DEFAULT_DEITY_URL = 'https://calendar.kanaksan.com/deities';
+
 /**
- * Renders the kanaksan.com Tamil daily panchangam sheet, fed by a REST API.
+ * Renders the kanaksan.com Tamil daily panchangam sheet.
  *
- * - `mode` ("dark" default | "light") and `theme` (a registered theme name,
- *   or a literal token object) can both change at runtime — the component
- *   just re-resolves CSS variables, no remount needed.
- * - `locale` ("ta" default | "en") switches static section/label text;
- *   the underlying data is always bilingual and rendered per `locale` too.
+ * Data source is auto-detected:
+ * - `apiUrl` provided → fetches from REST API using `apiKey`
+ * - `apiUrl` omitted  → reads static JSON files from `baseUrl`
+ *                       (defaults to https://calendar.kanaksan.com/json)
+ *
+ * `mode`, `theme`, and `locale` can all change at runtime — no remount needed.
  */
 export function TamilCalendar({
-  source = 'rest',
   apiUrl,
   apiKey,
-  baseUrl,
+  baseUrl = DEFAULT_BASE_URL,
   date,
   mode = 'dark',
   theme,
   locale = 'ta',
-  deityImageBaseUrl,
+  deityImageBaseUrl = DEFAULT_DEITY_URL,
   className,
 }: TamilCalendarProps) {
   const i18nInstance = useCalendarI18n(locale);
   const { tokens, style } = useTheme(mode, theme);
-  const { state, refetch } = useCalendarData({ source, apiUrl, apiKey, baseUrl, date });
+  const { state, refetch } = useCalendarData({ apiUrl, apiKey, baseUrl, date });
 
   const rootClassName = ['tdscal-root', `tdscal-mode-${mode}`, className].filter(Boolean).join(' ');
 

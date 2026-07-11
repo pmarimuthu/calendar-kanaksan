@@ -4,27 +4,25 @@ export type CalendarMode = 'dark' | 'light';
 export type CalendarLocale =
   | 'ta' | 'en' | 'hi' | 'te' | 'kn' | 'ml' | 'mr' | 'bn' | 'gu' | 'pa'
   | 'fr' | 'ms' | 'si';
-/**
- * "rest" — fetch from `apiUrl` (the eventual REST API, with `apiKey`).
- * "local" — read pre-generated JSON files under `baseUrl`, following the
- * calendar-extractor pipeline's `{yyyy}/{MM}-{yyyy}/{dd}-{MMM}-{yyyy}.json`
- * layout. Stopgap until the REST API is live; switch back by changing this
- * one prop.
- */
-export type CalendarSource = 'rest' | 'local';
 
 export interface TamilCalendarProps {
-  /** Data source. Defaults to "rest". */
-  source?: CalendarSource;
-  /** REST endpoint that returns a single day's PanchangamData as JSON. Required when `source` is "rest". */
+  /**
+   * REST endpoint returning a single day's PanchangamData as JSON.
+   * When provided, the component fetches live data from this URL.
+   * When omitted, the component reads pre-generated static JSON files from `baseUrl`.
+   */
   apiUrl?: string;
-  /** Sent as the `x-api-key` request header. Required when `source` is "rest". */
+  /** Sent as the `x-api-key` request header. Required when `apiUrl` is provided. */
   apiKey?: string;
-  /** Root URL the dated JSON tree is served from. Required when `source` is "local". */
+  /**
+   * Root URL serving the pre-generated dated JSON tree.
+   * Defaults to 'https://calendar.kanaksan.com/json'.
+   * Only used when `apiUrl` is not provided.
+   */
   baseUrl?: string;
   /**
    * The day to fetch/display. Accepts a Date or an ISO-ish "YYYY-MM-DD" string.
-   * Defaults to the current system date.
+   * Defaults to the current date in IST.
    */
   date?: Date | string;
   /** Built-in dark/light mode. Defaults to "dark". */
@@ -42,9 +40,9 @@ export interface TamilCalendarProps {
    */
   locale?: CalendarLocale;
   /**
-   * Root URL serving weekday deity images named `{weekday}.webp` (lowercase
-   * english weekday, e.g. `/deities/sunday.webp`). When omitted, no deity
-   * image is rendered.
+   * Root URL serving weekday deity images named `{weekday}.webp`.
+   * Defaults to 'https://calendar.kanaksan.com/deities'.
+   * Pass an empty string to disable the deity image entirely.
    */
   deityImageBaseUrl?: string;
   /** Extra class name applied to the component's root element. */

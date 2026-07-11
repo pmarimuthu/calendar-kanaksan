@@ -226,9 +226,8 @@ function Playground() {
               }}
             >
               <TamilCalendar
-                source="local"
-                deityImageBaseUrl="/deities"
                 baseUrl="/json"
+                deityImageBaseUrl="/deities"
                 date={date}
                 mode={mode}
                 locale={locale}

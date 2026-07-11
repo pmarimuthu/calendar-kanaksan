@@ -4,7 +4,7 @@ import { defineConfig, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 import dts from 'vite-plugin-dts';
 
-const JSON_ROOT = resolve(__dirname, '../json');
+const JSON_ROOT = resolve(__dirname, 'json');
 
 function serveLocalJson(): Plugin {
   return {
@@ -26,16 +26,17 @@ function serveLocalJson(): Plugin {
   };
 }
 
-// Library build: emits ESM + CJS bundles plus per-module .d.ts files.
-// react/react-dom are peer dependencies and stay external; i18next/react-i18next
-// are bundled (the component manages its own isolated i18n instance internally).
 export default defineConfig({
   plugins: [
     react(),
     serveLocalJson(),
     dts({
       include: ['src'],
-      exclude: ['src/**/*.test.ts', 'src/**/*.test.tsx'],
+      exclude: [
+        'src/**/*.test.ts',
+        'src/**/*.test.tsx',
+        'src/dev/**',
+      ],
     }),
   ],
   build: {
@@ -45,11 +46,22 @@ export default defineConfig({
       formats: ['es', 'cjs'],
       fileName: (format) => `tamil-calendar.${format === 'es' ? 'js' : 'cjs'}`,
     },
+    publicDir: false,
     cssCodeSplit: false,
-    sourcemap: true,
+    sourcemap: false,
     emptyOutDir: true,
     rollupOptions: {
-      external: ['react', 'react-dom', 'react/jsx-runtime'],
+      external: [
+        'react',
+        'react-dom',
+        'react/jsx-runtime',
+        '@mui/material',
+        '@mui/icons-material',
+        '@mui/x-date-pickers',
+        '@emotion/react',
+        '@emotion/styled',
+        'dayjs',
+      ],
       output: {
         globals: { react: 'React', 'react-dom': 'ReactDOM' },
         assetFileNames: 'tamil-calendar.[ext]',
